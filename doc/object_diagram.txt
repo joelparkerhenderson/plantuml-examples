@@ -1,0 +1,25 @@
+@startuml
+object Object1 {
+  Alpha
+  Bravo
+  Charlie
+}
+object Object2 {
+  Delta
+  Echo
+  Foxtrot
+}
+object Object3 {
+  Golf
+  Hotel
+  Indigo
+}
+object Object4 {
+  Juliet
+  Kilo
+  Lima
+}
+Object1 <|-- Object2
+Object1 *-- Object3
+Object1 o-- Object4
+@enduml

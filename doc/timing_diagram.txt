@@ -1,0 +1,8 @@
+@startuml
+concise "My Timeline" as T
+@T
+0 is Alpha
++100 is Bravo
++100 is Charlie
+@50 <-> @+100 : My Note
+@enduml

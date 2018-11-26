@@ -1,0 +1,25 @@
+@startuml
+class Class1 {
+  {field} Alpha
+  {method} Bravo
+  {method} Charlie
+}
+class Class2 {
+  {field} Delta
+  {method} Echo
+  {method} Foxtrot
+}
+class Class3 {
+  {field} Golf
+  {method} Hotel
+  {method} Indigo
+}
+class Class4 {
+  {field} Juliet
+  {method} Kilo
+  {method} Lima
+}
+Class1 <|-- Class2
+Class1 *-- Class3
+Class1 o-- Class4
+@enduml

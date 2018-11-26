@@ -1,0 +1,4 @@
+@startuml
+System1 -> System2: Request
+System2 --> System1: Response
+@enduml

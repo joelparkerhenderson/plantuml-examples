@@ -1,0 +1,13 @@
+@startuml
+start
+-> Starting;
+:Activity 1;
+if (Question) then (yes)
+  :Option 1;
+else (no)
+  :Option 2;
+endif
+:Activity 2;
+-> Stopping;
+stop
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+[*] --> State1 : Start
+State1 -> State2 : Change1
+State2 -> State3 : Change2
+State3 --> [*] : Stop
+State1 : Description 1
+State2 : Description 2
+State3 : Description 3
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+salt
+{
+  Hello world
+  [Button]
+  ()  Radio 1
+  (X) Radio 2
+  []  Checkbox 1
+  [X] Checkbox 2
+  "Enter text here   "
+  ^This is a droplist^
+}
+@enduml
