@@ -211,7 +211,7 @@ concise "My Timeline" as T
 
 ## Wireframe
 
-![Wireframe](doc/wireframe_diagram.png)
+![Wireframe](doc/wireframe.png)
 
 ```plantuml
 @startuml
