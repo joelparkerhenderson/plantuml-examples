@@ -1,4 +1,5 @@
 @startuml
+!include styles.txt
 actor actor
 agent agent
 artifact artifact

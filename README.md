@@ -11,6 +11,7 @@ http://plantuml.com/class-diagram
 
 ```plantuml
 @startuml
+!include styles.txt
 System1 -> System2: Request
 System2 --> System1: Response
 @enduml
@@ -23,6 +24,7 @@ System2 --> System1: Response
 
 ```plantuml
 @startuml
+!include styles.txt
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)
@@ -37,6 +39,7 @@ User1 --> (Story1)
 
 ```plantuml
 @startuml
+!include styles.txt
 object Object1 {
   Alpha
   Bravo
@@ -69,6 +72,7 @@ Object1 o-- Object4
 
 ```plantuml
 @startuml
+!include styles.txt
 class Class1 {
   {field} Alpha
   {method} Bravo
@@ -101,6 +105,7 @@ Class1 o-- Class4
 
 ```plantuml
 @startuml
+!include styles.txt
 start
 -> Starting;
 :Activity 1;
@@ -122,6 +127,7 @@ stop
 
 ```plantuml
 @startuml
+!include styles.txt
 component "Component"
 interface "Interface"
 database "Database"
@@ -138,6 +144,7 @@ package "Package"
 
 ```plantuml
 @startuml
+!include styles.txt
 [*] --> State1 : Start
 State1 -> State2 : Change1
 State2 -> State3 : Change2
@@ -149,25 +156,13 @@ State3 : Description 3
 ```
 
 
-## Gantt chart
-
-![Gantt chart](doc/gantt_chart.png)
-
-```plantuml
-@startgantt
-[Task1] on {Alice} lasts 8 days
-then [Task2] on {Bob} lasts 4 days at 50% 
-then [Task3] on {Carol} lasts 2 days at 25%
-@endgantt
-```
-
-
 ## Deployment diagram
 
 ![Deployment diagram](doc/deployment_diagram.png)
 
 ```plantuml
 @startuml
+!include styles.txt
 actor actor
 agent agent
 artifact artifact
@@ -199,6 +194,7 @@ usecase usecase
 
 ```plantuml
 @startuml
+!include styles.txt
 concise "My Timeline" as T
 @T
 0 is Alpha
@@ -227,4 +223,17 @@ salt
   ^This is a droplist^
 }
 @enduml
+```
+
+
+## Gantt chart
+
+![Gantt chart](doc/gantt_chart.png)
+
+```plantuml
+@startgantt
+[Task1] on {Alice} lasts 8 days
+then [Task2] on {Bob} lasts 4 days at 50% 
+then [Task3] on {Carol} lasts 2 days at 25%
+@endgantt
 ```

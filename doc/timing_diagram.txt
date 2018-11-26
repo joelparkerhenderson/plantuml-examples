@@ -1,4 +1,5 @@
 @startuml
+!include styles.txt
 concise "My Timeline" as T
 @T
 0 is Alpha

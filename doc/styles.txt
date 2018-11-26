@@ -1,0 +1,80 @@
+' PlantUML styles that emphasize monochrome
+' Thanks to Matthew Joseph Taylor
+' https://github.com/matthewjosephtaylor/plantuml-style
+
+skinparam defaultFontName  Helvetica
+skinparam sequenceMessageAlign center
+skinparam monochrome true
+
+skinparam activity {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+skinparam actor {
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam usecase {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+skinparam class {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+
+skinparam object {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam package {
+	BackgroundColor White
+	BorderColor Black
+}
+
+'TODO stereotype
+
+skinparam component {
+	BackgroundColor White
+	InterfaceBackgroundColor White
+	BorderColor Black
+	InterfaceBorderColor Black
+}
+
+skinparam note {
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam state {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam sequence {
+	ArrowColor Black
+	BackgroundColor White
+	ParticipantBackgroundColor White
+	BorderColor Black
+	LifeLineBorderColor Black
+	ParticipantBorderColor Black
+	BoxLineColor Black
+}
+
+skinparam interface {
+	BackgroundColor White
+	BorderColor Black
+}
