@@ -7,7 +7,7 @@ http://plantuml.com/class-diagram
 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence_diagram.png)
+![Sequence diagram](doc/sequence_diagram/sequence_diagram.png)
 
 ```plantuml
 @startuml
@@ -17,7 +17,10 @@ Bravo --> Alpha
 @enduml
 ```
 
-![Sequence diagram extras](doc/sequence_diagram_extras.png)
+
+## Sequence diagram extra
+
+![Sequence diagram extras](doc/sequence_diagram_extras/sequence_diagram_extras.png)
 
 ```plantuml
 @startuml
@@ -32,7 +35,7 @@ Bravo -> Alpha: Step 4
 
 ## Usecase diagram
 
-![Usecase diagram](doc/usecase_diagram.png)
+![Usecase diagram](doc/usecase_diagram/usecase_diagram.png)
 
 ```plantuml
 @startuml
@@ -47,7 +50,7 @@ User1 --> (Story1)
 
 ## Object diagram
 
-![Object diagram](doc/object_diagram.png)
+![Object diagram](doc/object_diagram/object_diagram.png)
 
 ```plantuml
 @startuml
@@ -80,7 +83,7 @@ Object1 o-- Object4
 
 ## Class diagram
 
-![Class diagram](doc/class_diagram.png)
+![Class diagram](doc/class_diagram/class_diagram.png)
 
 ```plantuml
 @startuml
@@ -113,7 +116,7 @@ Class1 o-- Class4
 
 ## Activity diagram
 
-![Activity diagram](doc/activity_diagram.png)
+![Activity diagram](doc/activity_diagram/activity_diagram.png)
 
 ```plantuml
 @startuml
@@ -135,7 +138,7 @@ stop
 
 ## Component diagram
 
-![Component diagram](doc/component_diagram.png)
+![Component diagram](doc/component_diagram/component_diagram.png)
 
 ```plantuml
 @startuml
@@ -152,7 +155,7 @@ package "Package"
 
 ## State diagram
 
-![State diagram](doc/state_diagram.png)
+![State diagram](doc/state_diagram/state_diagram.png)
 
 ```plantuml
 @startuml
@@ -170,7 +173,7 @@ State3 : Description 3
 
 ## Deployment diagram
 
-![Deployment diagram](doc/deployment_diagram.png)
+![Deployment diagram](doc/deployment_diagram/deployment_diagram.png)
 
 ```plantuml
 @startuml
@@ -202,7 +205,7 @@ usecase usecase
 
 ## Timing diagram
 
-![Timing diagram](doc/timing_diagram.png)
+![Timing diagram](doc/timing_diagram/timing_diagram.png)
 
 ```plantuml
 @startuml
@@ -219,7 +222,7 @@ concise "My Timeline" as T
 
 ## Wireframe
 
-![Wireframe](doc/wireframe.png)
+![Wireframe](doc/wireframe/wireframe.png)
 
 ```plantuml
 @startuml
@@ -240,7 +243,7 @@ salt
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt_chart.png)
+![Gantt chart](doc/gantt_chart/gantt_chart.png)
 
 ```plantuml
 @startgantt
