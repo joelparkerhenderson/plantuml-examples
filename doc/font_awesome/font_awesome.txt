@@ -1,0 +1,10 @@
+@startuml
+!include <font-awesome/star>
+!include <font-awesome/cog>
+!include <font-awesome/database>
+
+<$star>
+
+<$cog>
+
+<$database>
