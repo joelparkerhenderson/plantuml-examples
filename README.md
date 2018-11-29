@@ -11,12 +11,24 @@ http://plantuml.com/class-diagram
 
 ```plantuml
 @startuml
-!include styles.txt
-System1 -> System2: Request
-System2 --> System1: Response
+skinparam monochrome true
+Alpha -> Bravo
+Bravo --> Alpha
 @enduml
 ```
 
+![Sequence diagram extras](doc/sequence_diagram_extras.png)
+
+```plantuml
+@startuml
+skinparam monochrome true
+Alpha -> Bravo: Step 1
+Bravo --> Charlie: Step 2
+== My Divider ==
+Charlie -> Bravo: Step 3
+Bravo -> Alpha: Step 4
+@enduml
+```
 
 ## Usecase diagram
 
@@ -24,7 +36,7 @@ System2 --> System1: Response
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)
@@ -39,7 +51,7 @@ User1 --> (Story1)
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 object Object1 {
   Alpha
   Bravo
@@ -72,7 +84,7 @@ Object1 o-- Object4
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 class Class1 {
   {field} Alpha
   {method} Bravo
@@ -105,7 +117,7 @@ Class1 o-- Class4
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 start
 -> Starting;
 :Activity 1;
@@ -127,7 +139,7 @@ stop
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 component "Component"
 interface "Interface"
 database "Database"
@@ -144,7 +156,7 @@ package "Package"
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 [*] --> State1 : Start
 State1 -> State2 : Change1
 State2 -> State3 : Change2
@@ -162,7 +174,7 @@ State3 : Description 3
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 actor actor
 agent agent
 artifact artifact
@@ -194,7 +206,7 @@ usecase usecase
 
 ```plantuml
 @startuml
-!include styles.txt
+skinparam monochrome true
 concise "My Timeline" as T
 @T
 0 is Alpha
