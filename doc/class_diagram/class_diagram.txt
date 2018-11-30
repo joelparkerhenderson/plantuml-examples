@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 class Class1 {
   {field} Alpha
   {method} Bravo

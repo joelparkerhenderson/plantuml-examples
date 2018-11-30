@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 actor actor
 agent agent
 artifact artifact

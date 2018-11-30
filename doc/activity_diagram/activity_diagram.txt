@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 start
 -> Starting;
 :Activity 1;

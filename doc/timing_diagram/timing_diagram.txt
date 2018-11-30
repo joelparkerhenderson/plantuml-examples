@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 concise "My Timeline" as T
 @T
 0 is Alpha

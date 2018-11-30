@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 component "Component"
 interface "Interface"
 database "Database"

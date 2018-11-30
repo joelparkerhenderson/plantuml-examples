@@ -1,10 +1,5 @@
 @startuml
+skinparam monochrome true
 !include <font-awesome/star>
-!include <font-awesome/cog>
-!include <font-awesome/database>
-
-<$star>
-
-<$cog>
-
-<$database>
+rectangle "<$star>"
+@enduml

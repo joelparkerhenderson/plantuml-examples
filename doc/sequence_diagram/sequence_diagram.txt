@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
-System1 -> System2: Request
-System2 --> System1: Response
+skinparam monochrome true
+Alpha -> Bravo
+Bravo -> Alpha
 @enduml

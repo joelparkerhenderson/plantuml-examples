@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 [*] --> State1 : Start
 State1 -> State2 : Change1
 State2 -> State3 : Change2

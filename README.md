@@ -13,7 +13,7 @@ http://plantuml.com/class-diagram
 @startuml
 skinparam monochrome true
 Alpha -> Bravo
-Bravo --> Alpha
+Bravo -> Alpha
 @enduml
 ```
 
@@ -26,7 +26,7 @@ Bravo --> Alpha
 @startuml
 skinparam monochrome true
 Alpha -> Bravo: Step 1
-Bravo --> Charlie: Step 2
+Bravo -> Charlie: Step 2
 == My Divider ==
 Charlie -> Bravo: Step 3
 Bravo -> Alpha: Step 4
@@ -247,8 +247,21 @@ salt
 
 ```plantuml
 @startgantt
+skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50% 
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
+```
+
+## Font Awesome
+
+![Font Awesome](doc/font_awesome/font_awesome.png)
+
+```plantuml
+@startuml
+skinparam monochrome true
+!include <font-awesome/star>
+rectangle "<$star>"
+@enduml
 ```

@@ -1,4 +1,5 @@
 @startgantt
+skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50% 
 then [Task3] on {Carol} lasts 2 days at 25%

@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)

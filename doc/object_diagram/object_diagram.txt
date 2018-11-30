@@ -1,5 +1,5 @@
 @startuml
-!include styles.txt
+skinparam monochrome true
 object Object1 {
   Alpha
   Bravo
