@@ -2,7 +2,7 @@
 
 PlantUML is a tool that uses text formatting to create graphic diagrams.
 
-http://plantuml.com/class-diagram
+See http://plantuml.com
 
 
 ## Sequence diagram
