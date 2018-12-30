@@ -4,23 +4,23 @@ PlantUML is a tool that uses text formatting to create graphic diagrams. See htt
 
 Contents:
 
-* [Sequence diagram](#sequence-diagram)
-* [Sequence diagram extra](#sequence-diagram-extra)
+* [Sequence diagram demo](#sequence-diagram-demo)
+* [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
 * [My Divider](#my-divider)
-* [Usecase diagram](#usecase-diagram)
-* [Object diagram](#object-diagram)
-* [Class diagram](#class-diagram)
-* [Activity diagram](#activity-diagram)
-* [Component diagram](#component-diagram)
-* [State diagram](#state-diagram)
-* [Deployment diagram](#deployment-diagram)
-* [Timing diagram](#timing-diagram)
-* [Wireframe](#wireframe)
-* [Gantt chart](#gantt-chart)
-* [Font Awesome](#font-awesome)
+* [Usecase diagram demo](#usecase-diagram-demo)
+* [Object diagram demo](#object-diagram-demo)
+* [Class diagram demo](#class-diagram-demo)
+* [Activity diagram demo](#activity-diagram-demo)
+* [Component diagram demo of items](#component-diagram-demo-of-items)
+* [State diagram demo](#state-diagram-demo)
+* [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
+* [Timing diagram demo](#timing-diagram-demo)
+* [Wireframe demo](#wireframe-demo)
+* [Gantt chart demo](#gantt-chart-demo)
+* [Font Awesome demo](#font-awesome-demo)
 
 
-## Sequence diagram
+## Sequence diagram demo
 
 ![Sequence diagram](doc/sequence_diagram/sequence_diagram.png)
 
@@ -33,7 +33,7 @@ Bravo -> Alpha
 ```
 
 
-## Sequence diagram extra
+## Sequence diagram demo with steps and divider
 
 ![Sequence diagram extras](doc/sequence_diagram_extras/sequence_diagram_extras.png)
 
@@ -48,7 +48,7 @@ Bravo -> Alpha: Step 4
 @enduml
 ```
 
-## Usecase diagram
+## Usecase diagram demo
 
 ![Usecase diagram](doc/usecase_diagram/usecase_diagram.png)
 
@@ -63,7 +63,7 @@ User1 --> (Story1)
 ```
 
 
-## Object diagram
+## Object diagram demo
 
 ![Object diagram](doc/object_diagram/object_diagram.png)
 
@@ -96,7 +96,7 @@ Object1 o-- Object4
 @enduml
 ```
 
-## Class diagram
+## Class diagram demo
 
 ![Class diagram](doc/class_diagram/class_diagram.png)
 
@@ -129,7 +129,7 @@ Class1 o-- Class4
 @enduml
 ```
 
-## Activity diagram
+## Activity diagram demo
 
 ![Activity diagram](doc/activity_diagram/activity_diagram.png)
 
@@ -151,7 +151,7 @@ stop
 ```
 
 
-## Component diagram
+## Component diagram demo of items
 
 ![Component diagram](doc/component_diagram/component_diagram.png)
 
@@ -168,7 +168,7 @@ package "Package"
 ```
 
 
-## State diagram
+## State diagram demo
 
 ![State diagram](doc/state_diagram/state_diagram.png)
 
@@ -186,7 +186,7 @@ State3 : Description 3
 ```
 
 
-## Deployment diagram
+## Deployment diagram demo of items
 
 ![Deployment diagram](doc/deployment_diagram/deployment_diagram.png)
 
@@ -218,7 +218,7 @@ usecase usecase
 ```
 
 
-## Timing diagram
+## Timing diagram demo
 
 ![Timing diagram](doc/timing_diagram/timing_diagram.png)
 
@@ -235,7 +235,7 @@ concise "My Timeline" as T
 ```
 
 
-## Wireframe
+## Wireframe demo
 
 ![Wireframe](doc/wireframe/wireframe.png)
 
@@ -256,7 +256,7 @@ salt
 ```
 
 
-## Gantt chart
+## Gantt chart demo
 
 ![Gantt chart](doc/gantt_chart/gantt_chart.png)
 
@@ -269,7 +269,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
 ```
 
-## Font Awesome
+## Font Awesome demo
 
 ![Font Awesome](doc/font_awesome/font_awesome.png)
 
