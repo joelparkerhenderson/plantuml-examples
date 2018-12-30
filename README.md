@@ -1,8 +1,23 @@
 # PlantUML demo
 
-PlantUML is a tool that uses text formatting to create graphic diagrams.
+PlantUML is a tool that uses text formatting to create graphic diagrams. See http://plantuml.com
 
-See http://plantuml.com
+Contents:
+
+* [Sequence diagram](#sequence-diagram)
+* [Sequence diagram extra](#sequence-diagram-extra)
+* [My Divider](#my-divider)
+* [Usecase diagram](#usecase-diagram)
+* [Object diagram](#object-diagram)
+* [Class diagram](#class-diagram)
+* [Activity diagram](#activity-diagram)
+* [Component diagram](#component-diagram)
+* [State diagram](#state-diagram)
+* [Deployment diagram](#deployment-diagram)
+* [Timing diagram](#timing-diagram)
+* [Wireframe](#wireframe)
+* [Gantt chart](#gantt-chart)
+* [Font Awesome](#font-awesome)
 
 
 ## Sequence diagram
