@@ -61,21 +61,21 @@ Actor4 -d-> UseCase4
 UseCase4 -d-> Pipeline3
 
 ' Diamond upper area
-cloud "\n<$heart>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondUpperCard
-DiamondUpperCard -d-> Pipeline1
-DiamondUpperCard -d-> Pipeline2
-DiamondUpperCard -d-> Pipeline3
+cloud "\n<$heart>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondUpper
+DiamondUpper -d-> Pipeline1
+DiamondUpper -d-> Pipeline2
+DiamondUpper -d-> Pipeline3
 
 ' Diamond lower area
-cloud "\n<$gear>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondLowerCard
-DiamondLowerCard -u-> Pipeline1
-DiamondLowerCard -u-> Pipeline2
-DiamondLowerCard -u-> Pipeline3
+database "\n<$gear>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondLower
+DiamondLower -u-> Pipeline1
+DiamondLower -u-> Pipeline2
+DiamondLower -u-> Pipeline3
 
 ' Hinting
 UseCase1 -[hidden]r- UseCase2
-UseCase2 -[hidden]r- DiamondUpperCard
-DiamondUpperCard -[hidden]r- UseCase3
+UseCase2 -[hidden]r- DiamondUpper
+DiamondUpper -[hidden]r- UseCase3
 UseCase3 -[hidden]r- UseCase4
 
 ' Pipeline 1 controls
