@@ -84,7 +84,7 @@ control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Contr
 Pipeline1Control1 -u-> Pipeline1
 Pipeline1Control2 -u-> Pipeline1
 
-' Pipeline 4 controls
+' Pipeline 3 controls
 control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Control1
 control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Control2
 Pipeline3Control1 -u-> Pipeline3
