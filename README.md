@@ -18,6 +18,7 @@ Contents:
 * [Wireframe demo](#wireframe-demo)
 * [Gantt chart demo](#gantt-chart-demo)
 * [Font Awesome demo](#font-awesome-demo)
+* [Area diagram demo](#area-diagram-demo)
 
 
 ## Sequence diagram demo
@@ -280,3 +281,12 @@ skinparam monochrome true
 rectangle "<$star>"
 @enduml
 ```
+
+
+## Area diagram demo
+
+![Area diagram](doc/area_diagram/area_diagram.png)
+
+[Area diagram PlantUML](doc/area_diagram/area_diagram.txt)
+
+The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more. 
