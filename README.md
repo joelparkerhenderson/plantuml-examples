@@ -10,6 +10,7 @@ Contents:
 * [Usecase diagram demo](#usecase-diagram-demo)
 * [Object diagram demo](#object-diagram-demo)
 * [Class diagram demo](#class-diagram-demo)
+* [Package styles](#package-styles)
 * [Activity diagram demo](#activity-diagram-demo)
 * [Component diagram demo of items](#component-diagram-demo-of-items)
 * [State diagram demo](#state-diagram-demo)
@@ -129,6 +130,34 @@ Class1 *-- Class3
 Class1 o-- Class4
 @enduml
 ```
+
+## Package styles
+
+![Package styles](doc/package_styles/package_styles.png)
+
+```
+@startuml
+package "Demo Node" <<Node>> {
+  objec Object1
+}
+package "Demo Rectangle" <<Rectangle>> {
+  object Object2
+}
+package "Demo Folder" <<Folder>> {
+  object Object3
+}
+package "Demo Frame" <<Frame>> {
+  object Object4
+}
+package "Demo Cloud" <<Cloud>> {
+  object Object5
+}
+package "Demo Database" <<Database>> {
+  object Object6
+}
+@enduml
+```
+
 
 ## Activity diagram demo
 
@@ -265,7 +294,7 @@ salt
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
-then [Task2] on {Bob} lasts 4 days at 50% 
+then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
 ```
@@ -289,4 +318,4 @@ rectangle "<$star>"
 
 [Area diagram PlantUML](doc/area_diagram/area_diagram.txt)
 
-The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more. 
+The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
