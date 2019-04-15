@@ -138,7 +138,7 @@ Class1 o-- Class4
 ```
 @startuml
 package "Demo Node" <<Node>> {
-  objec Object1
+  object Object1
 }
 package "Demo Rectangle" <<Rectangle>> {
   object Object2
