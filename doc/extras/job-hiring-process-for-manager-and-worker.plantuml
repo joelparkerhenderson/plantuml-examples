@@ -1,0 +1,99 @@
+@startuml
+skinparam monochrome true
+
+|Manager|
+start
+:Start job creation process|
+:Post jobs;
+
+|Worker|
+:Start job search process|
+:Search jobs;
+:Apply for a job/
+
+|Manager|
+:Start job applicant process|
+:Send job application\nand assessments/
+
+|Worker|
+:Do job application\nand assessments;
+:Respond with completed information/
+
+|Manager|
+:Score job application\nand assessments;
+if (Good score?) then (yes)
+  :Proceed/
+else (no)
+  :Decline/
+  stop
+endif
+
+:Start interview process|
+
+|Manager|
+:Send interview invitation\nand schedule etc./
+
+|Worker|
+:Accept interviews invitation/
+
+|Manager|
+:Do interviews;
+:Score interviews;
+
+|Manager|
+if (Good score?) then (yes)
+  :Proceed/
+else (no)
+  :Decline/
+  stop
+endif
+
+|Manager|
+:Start reference process|
+:Send intake of reference checks/
+
+|Worker|
+:Respond with completed information/
+
+|Manager|
+:Do reference checks;
+:Score reference checks;
+
+|Manager|
+if (Good score?) then (yes)
+  :Proceed/
+else (no)
+  :Decline/
+  stop
+endif
+
+|Manager|
+:Start offer process|
+:Send contingent job offer/
+
+|Worker|
+if (Accept job offer?) then (yes)
+  :Authorize background checks/
+else (no)
+  :Decline/
+  stop
+endif
+
+|Manager|
+:Do background checks;
+:Score background checks;
+
+if (Good score?) then (yes)
+  :Proceed/
+else (no)
+  :Decline/
+  stop
+endif
+
+:Start welcome process|
+
+|Manager|
+:Send welcome information/
+stop
+
+@enduml
