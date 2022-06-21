@@ -4,22 +4,23 @@ PlantUML is a tool that uses text formatting to create graphic diagrams. See htt
 
 Contents:
 
-* [Sequence diagram demo](#sequence-diagram-demo)
-* [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
-* [My Divider](#my-divider)
-* [Usecase diagram demo](#usecase-diagram-demo)
-* [Object diagram demo](#object-diagram-demo)
-* [Class diagram demo](#class-diagram-demo)
-* [Package styles](#package-styles)
-* [Activity diagram demo](#activity-diagram-demo)
-* [Component diagram demo of items](#component-diagram-demo-of-items)
-* [State diagram demo](#state-diagram-demo)
-* [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
-* [Timing diagram demo](#timing-diagram-demo)
-* [Wireframe demo](#wireframe-demo)
-* [Gantt chart demo](#gantt-chart-demo)
-* [Font Awesome demo](#font-awesome-demo)
-* [Area diagram demo](#area-diagram-demo)
+- [PlantUML demo](#plantuml-demo)
+  - [Sequence diagram demo](#sequence-diagram-demo)
+  - [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
+  - [Usecase diagram demo](#usecase-diagram-demo)
+  - [Object diagram demo](#object-diagram-demo)
+  - [Class diagram demo](#class-diagram-demo)
+  - [Package styles](#package-styles)
+  - [Activity diagram demo](#activity-diagram-demo)
+  - [Component diagram demo of items](#component-diagram-demo-of-items)
+  - [State diagram demo](#state-diagram-demo)
+  - [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
+  - [Timing diagram demo](#timing-diagram-demo)
+  - [Wireframe demo](#wireframe-demo)
+  - [Gantt chart demo](#gantt-chart-demo)
+  - [Font Awesome demo](#font-awesome-demo)
+  - [Procedure demo](#procedure-demo)
+  - [Area diagram demo](#area-diagram-demo)
 
 
 ## Sequence diagram demo
@@ -308,6 +309,20 @@ then [Task3] on {Carol} lasts 2 days at 25%
 skinparam monochrome true
 !include <font-awesome/star>
 rectangle "<$star>"
+@enduml
+```
+
+
+## Procedure demo
+
+![Procedure diagram](doc/procedure/procedure.png)
+
+```plantuml
+@startuml
+!procedure $demo($name, $headline, $description)
+  card $name as "\n<size:22>$headline</size>\n\n<size:12>$description</size>\n"
+!endprocedure
+$demo(MyCard, "Hello World", "This is a demonstration")
 @enduml
 ```
 
