@@ -1,0 +1,11 @@
+@startuml
+skinparam monochrome true
+skinparam defaultTextAlignment center
+
+!procedure $layout($shape, $name, $openiconic, $headline, $description)
+  $shape $name as "\n\n<size:44><&$openiconic></size>\n<size:22><U+00A0><U+00A0>$headline<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>$description<U+00A0><U+00A0>\n\n"
+!endprocedure
+
+$layout(card, MyCard, heart, "Hello World", "This is a demonstration")
+
+@enduml

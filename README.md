@@ -21,6 +21,7 @@ Contents:
   - [OpenIconic demo](#openiconic-demo)
   - [Font Awesome demo](#font-awesome-demo)
   - [Procedure demo](#procedure-demo)
+  - [Procedure layout demo](#procedure-layout-demo)
   - [Area diagram demo](#area-diagram-demo)
   - [Standard library demo](#standard-library-demo)
 
@@ -335,12 +336,36 @@ rectangle "<$star>"
 
 ```plantuml
 @startuml
+
 !procedure $demo($name, $headline, $description)
   card $name as "\n<size:22>$headline</size>\n\n<size:12>$description</size>\n"
 !endprocedure
+
 $demo(MyCard, "Hello World", "This is a demonstration")
+
 @enduml
 ```
+
+
+## Procedure layout demo
+
+![Procedure layout diagram](doc/procedure_layout/procedure_layout.png)
+
+```plantuml
+@startuml
+skinparam monochrome true
+skinparam defaultTextAlignment center
+
+!procedure $layout($shape, $name, $openiconic, $headline, $description)
+  $shape $name as "\n\n<size:44><&$openiconic></size>\n<size:22><U+00A0><U+00A0>$headline<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>$description<U+00A0><U+00A0>\n\n"
+!endprocedure
+
+$layout(card, MyCard, heart, "Hello World", "This is a demonstration")
+
+@enduml
+```
+
+This demo shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
 
 
 ## Area diagram demo
