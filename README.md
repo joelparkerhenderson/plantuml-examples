@@ -18,6 +18,7 @@ Contents:
   - [Timing diagram demo](#timing-diagram-demo)
   - [Wireframe demo](#wireframe-demo)
   - [Gantt chart demo](#gantt-chart-demo)
+  - [OpenIconic demo](#openiconic-demo)
   - [Font Awesome demo](#font-awesome-demo)
   - [Procedure demo](#procedure-demo)
   - [Area diagram demo](#area-diagram-demo)
@@ -300,6 +301,20 @@ then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
 ```
+
+
+## OpenIconic demo
+
+![OpenIconic](doc/openiconic/openiconic.png)
+
+```plantuml
+@startuml
+title: <&heart> Demo <&heart>
+@enduml
+```
+
+OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
+
 
 ## Font Awesome demo
 
