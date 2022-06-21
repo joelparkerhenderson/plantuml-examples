@@ -21,6 +21,7 @@ Contents:
   - [Font Awesome demo](#font-awesome-demo)
   - [Procedure demo](#procedure-demo)
   - [Area diagram demo](#area-diagram-demo)
+  - [Standard library demo](#standard-library-demo)
 
 
 ## Sequence diagram demo
@@ -334,3 +335,16 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 [Area diagram PlantUML](doc/area_diagram/area_diagram.txt)
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
+
+
+## Standard library demo
+
+![Standard library](doc/standard_library/standard_library.png)
+
+```plantuml
+@startuml
+stdlib
+@enduml
+```
+
+You can list standard library folders by using the special diagram "stdlib".
