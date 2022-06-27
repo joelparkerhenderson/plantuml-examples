@@ -1,0 +1,28 @@
+@startgantt
+
+Project starts 2022-01-01
+
+[Week 01] as [week_01] lasts 1 week
+[week_01] links to [[https://example.com]]
+[week_01] is 0% complete
+[OK] as [week_01_end] happens at [week_01]'s end
+
+[Week 02] as [week_02] lasts 1 week
+[week_02] links to [[https://example.com]]
+[week_02] is 0% complete
+[week_02] starts at [week_01]'s end
+[OK] as [week_02_end] happens at [week_02]'s end
+
+[Week 03] as [week_03] lasts 1 week
+[week_03] links to [[https://example.com]]
+[week_03] is 0% complete
+[week_03] starts at [week_02]'s end
+[OK] as [week_03_end] happens at [week_03]'s end
+
+[Week 04] as [week_04] lasts 1 week
+[week_04] links to [[https://example.com]]
+[week_04] is 0% complete
+[week_04] starts at [week_03]'s end
+[OK] as [week_04_end] happens at [week_04]'s end
+
+@endgantt
