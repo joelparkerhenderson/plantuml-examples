@@ -1,0 +1,42 @@
+@startgantt
+
+[Phase 01\nSkateboard] as [phase_01] lasts 4 weeks
+[phase_01] links to [[https://example.com]]
+[phase_01] is 0% complete
+
+[Phase 02\nScooter] as [phase_02] lasts 4 weeks
+[phase_02] links to [[https://example.com]]
+[phase_02] is 0% complete
+[phase_02] starts at [phase_01]'s end
+
+[Phase 03\nBicycle] as [phase_03] lasts 4 weeks
+[phase_03] links to [[https://example.com]]
+[phase_03] is 0% complete
+[phase_03] starts at [phase_02]'s end
+
+[Phase 04\nMotorcycle] as [phase_04] lasts 4 weeks
+[phase_04] links to [[https://example.com]]
+[phase_04] is 0% complete
+[phase_04] starts at [phase_03]'s end
+
+[Phase 05\nCar] as [phase_05] lasts 4 weeks
+[phase_05] links to [[https://example.com]]
+[phase_05] is 0% complete
+[phase_05] starts at [phase_04]'s end
+
+[Phase 06\nTrain] as [phase_06] lasts 4 weeks
+[phase_06] links to [[https://example.com]]
+[phase_06] is 0% complete
+[phase_06] starts at [phase_05]'s end
+
+[Phase 07\nPlane] as [phase_07] lasts 4 weeks
+[phase_07] links to [[https://example.com]]
+[phase_07] is 0% complete
+[phase_07] starts at [phase_06]'s end
+
+[Phase 08\nRocket] as [phase_08] lasts 4 weeks
+[phase_08] links to [[https://example.com]]
+[phase_08] is 0% complete
+[phase_08] starts at [phase_07]'s end
+
+@endgantt
