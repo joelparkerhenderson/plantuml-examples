@@ -342,6 +342,19 @@ title: <&heart> <&heart>
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 
+# OpenIconic list
+
+![OpenIconic](doc/openiconic-list/openiconic-list.png)
+
+```plantuml
+@startuml
+listopeniconic
+@enduml
+```
+
+You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
+
+
 ## Font Awesome
 
 ![Font Awesome](doc/font-awesome/font-awesome.png)
