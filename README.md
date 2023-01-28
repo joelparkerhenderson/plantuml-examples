@@ -28,7 +28,7 @@ Contents:
 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence-diagram/sequence-diagram.png)
+![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -41,7 +41,7 @@ Bravo -> Alpha
 
 ## Sequence diagram with steps and divider
 
-![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.png)
+![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
 ```plantuml
 @startuml
@@ -56,7 +56,7 @@ Bravo -> Alpha: Step 4
 
 ## Sequence diagram with participant shapes
 
-![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.png)
+![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
 ```plantuml
 @startuml
@@ -81,7 +81,7 @@ Foo -> Foo7: To queue
 
 ## Usecase diagram
 
-![Usecase diagram](doc/usecase-diagram/usecase-diagram.png)
+![Usecase diagram](doc/usecase-diagram/usecase-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -96,7 +96,7 @@ User1 --> (Story1)
 
 ## Object diagram
 
-![Object diagram](doc/object-diagram/object-diagram.png)
+![Object diagram](doc/object-diagram/object-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -129,7 +129,7 @@ Object1 o-- Object4
 
 ## Class diagram
 
-![Class diagram](doc/class-diagram/class-diagram.png)
+![Class diagram](doc/class-diagram/class-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -162,7 +162,7 @@ Class1 o-- Class4
 
 ## Package styles
 
-![Package styles](doc/package-styles/package-styles.png)
+![Package styles](doc/package-styles/package-styles.plantuml.png)
 
 ```
 @startuml
@@ -190,7 +190,7 @@ package "Demo Database" <<Database>> {
 
 ## Activity diagram
 
-![Activity diagram](doc/activity-diagram/activity-diagram.png)
+![Activity diagram](doc/activity-diagram/activity-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -212,7 +212,7 @@ stop
 
 ## Component diagram of items
 
-![Component diagram](doc/component-diagram/component-diagram.png)
+![Component diagram](doc/component-diagram/component-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -229,7 +229,7 @@ package "Package"
 
 ## State diagram
 
-![State diagram](doc/state-diagram/state-diagram.png)
+![State diagram](doc/state-diagram/state-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -247,7 +247,7 @@ State3 : Description 3
 
 ## Deployment diagram of items
 
-![Deployment diagram](doc/deployment-diagram/deployment-diagram.png)
+![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -279,7 +279,7 @@ usecase usecase
 
 ## Timing diagram
 
-![Timing diagram](doc/timing-diagram/timing-diagram.png)
+![Timing diagram](doc/timing-diagram/timing-diagram.plantuml.png)
 
 ```plantuml
 @startuml
@@ -296,7 +296,7 @@ concise "My Timeline" as T
 
 ## Wireframe
 
-![Wireframe](doc/wireframe/wireframe.png)
+![Wireframe](doc/wireframe/wireframe.plantuml.png)
 
 ```plantuml
 @startuml
@@ -317,7 +317,7 @@ salt
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt-chart/gantt-chart.png)
+![Gantt chart](doc/gantt-chart/gantt-chart.plantuml.png)
 
 ```plantuml
 @startgantt
@@ -331,7 +331,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ## OpenIconic
 
-![OpenIconic](doc/openiconic/openiconic.png)
+![OpenIconic](doc/openiconic/openiconic.plantuml.png)
 
 ```plantuml
 @startuml
@@ -344,7 +344,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 # OpenIconic list
 
-![OpenIconic](doc/openiconic-list/openiconic-list.png)
+![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
 
 ```plantuml
 @startuml
@@ -357,7 +357,7 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 ## Font Awesome
 
-![Font Awesome](doc/font-awesome/font-awesome.png)
+![Font Awesome](doc/font-awesome/font-awesome.plantuml.png)
 
 ```plantuml
 @startuml
@@ -370,7 +370,7 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Procedure diagram](doc/procedure/procedure.png)
+![Procedure diagram](doc/procedure/procedure.plantuml.png)
 
 ```plantuml
 @startuml
@@ -387,7 +387,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Procedure layout diagram](doc/procedure-layout/procedure-layout.png)
+![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
 
 ```plantuml
 @startuml
@@ -408,7 +408,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-![Area diagram](doc/area-diagram/area-diagram.png)
+![Area diagram](doc/area-diagram/area-diagram.plantuml.png)
 
 [Area diagram PlantUML](doc/area-diagram/area-diagram.txt)
 
@@ -417,7 +417,7 @@ The area diagram is an example deployment diagram that shows a bunch of areas an
 
 ## Standard library
 
-![Standard library](doc/standard-library/standard-library.png)
+![Standard library](doc/standard-library/standard-library.plantuml.png)
 
 ```plantuml
 @startuml
