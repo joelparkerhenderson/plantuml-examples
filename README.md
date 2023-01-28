@@ -4,26 +4,26 @@ PlantUML is a tool that uses text formatting to create graphic diagrams. See htt
 
 Contents:
 
-- [PlantUML demo](#plantuml-demo)
-  - [Sequence diagram demo](#sequence-diagram-demo)
-  - [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
-  - [Usecase diagram demo](#usecase-diagram-demo)
-  - [Object diagram demo](#object-diagram-demo)
-  - [Class diagram demo](#class-diagram-demo)
-  - [Package styles](#package-styles)
-  - [Activity diagram demo](#activity-diagram-demo)
-  - [Component diagram demo of items](#component-diagram-demo-of-items)
-  - [State diagram demo](#state-diagram-demo)
-  - [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
-  - [Timing diagram demo](#timing-diagram-demo)
-  - [Wireframe demo](#wireframe-demo)
-  - [Gantt chart demo](#gantt-chart-demo)
-  - [OpenIconic demo](#openiconic-demo)
-  - [Font Awesome demo](#font-awesome-demo)
-  - [Procedure demo](#procedure-demo)
-  - [Procedure layout demo](#procedure-layout-demo)
-  - [Area diagram demo](#area-diagram-demo)
-  - [Standard library demo](#standard-library-demo)
+- [Sequence diagram demo](#sequence-diagram-demo)
+- [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
+- [Sequence diagram demo with participant shapes](#sequence-diagram-demo-with-participant-shapes)
+- [Usecase diagram demo](#usecase-diagram-demo)
+- [Object diagram demo](#object-diagram-demo)
+- [Class diagram demo](#class-diagram-demo)
+- [Package styles](#package-styles)
+- [Activity diagram demo](#activity-diagram-demo)
+- [Component diagram demo of items](#component-diagram-demo-of-items)
+- [State diagram demo](#state-diagram-demo)
+- [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
+- [Timing diagram demo](#timing-diagram-demo)
+- [Wireframe demo](#wireframe-demo)
+- [Gantt chart demo](#gantt-chart-demo)
+- [OpenIconic demo](#openiconic-demo)
+- [Font Awesome demo](#font-awesome-demo)
+- [Procedure demo](#procedure-demo)
+- [Procedure layout demo](#procedure-layout-demo)
+- [Area diagram demo](#area-diagram-demo)
+- [Standard library demo](#standard-library-demo)
 
 
 ## Sequence diagram demo
@@ -51,6 +51,31 @@ Bravo -> Charlie: Step 2
 == My Divider ==
 Charlie -> Bravo: Step 3
 Bravo -> Alpha: Step 4
+@enduml
+```
+
+## Sequence diagram demo with participant shapes
+
+![Sequence diagram extras](doc/sequence_diagram_with_participant_shapes/sequence_diagram_with_participant_shapes.png)
+
+```plantuml
+@startuml
+skinparam monochrome true
+participant Participant as Foo
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
 @enduml
 ```
 
