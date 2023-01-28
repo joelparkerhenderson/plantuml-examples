@@ -24,6 +24,7 @@ Contents:
 - [Procedure layout](#procedure-layout)
 - [Area diagram](#area-diagram)
 - [Standard library](#standard-library)
+- [C4 model](#c4-model)
 
 
 ## Sequence diagram
@@ -426,3 +427,28 @@ stdlib
 ```
 
 You can list standard library folders by using the special diagram "stdlib".
+
+
+## C4 model
+
+![C4 model](doc/c4-model/c4-model.plantuml.png)
+
+```plantuml
+@startuml
+!include <C4/C4_Container>
+
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description")
+
+System_Ext(extSystemAlias, "Label", "Optional Description")
+
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+
+Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
+@enduml
+```
+
+The C4 Model focuses diagrams on four areas: Context, Containers, Components, Code.
+
+<https://c4model.com/>
