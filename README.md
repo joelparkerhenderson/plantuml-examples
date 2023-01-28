@@ -1,32 +1,32 @@
-# PlantUML demo
+# PlantUML
 
 PlantUML is a tool that uses text formatting to create graphic diagrams. See http://plantuml.com
 
 Contents:
 
-- [Sequence diagram demo](#sequence-diagram-demo)
-- [Sequence diagram demo with steps and divider](#sequence-diagram-demo-with-steps-and-divider)
-- [Sequence diagram demo with participant shapes](#sequence-diagram-demo-with-participant-shapes)
-- [Usecase diagram demo](#usecase-diagram-demo)
-- [Object diagram demo](#object-diagram-demo)
-- [Class diagram demo](#class-diagram-demo)
+- [Sequence diagram](#sequence-diagram)
+- [Sequence diagram with steps and divider](#sequence-diagram-with-steps-and-divider)
+- [Sequence diagram with participant shapes](#sequence-diagram-with-participant-shapes)
+- [Usecase diagram](#usecase-diagram)
+- [Object diagram](#object-diagram)
+- [Class diagram](#class-diagram)
 - [Package styles](#package-styles)
-- [Activity diagram demo](#activity-diagram-demo)
-- [Component diagram demo of items](#component-diagram-demo-of-items)
-- [State diagram demo](#state-diagram-demo)
-- [Deployment diagram demo of items](#deployment-diagram-demo-of-items)
-- [Timing diagram demo](#timing-diagram-demo)
-- [Wireframe demo](#wireframe-demo)
-- [Gantt chart demo](#gantt-chart-demo)
-- [OpenIconic demo](#openiconic-demo)
-- [Font Awesome demo](#font-awesome-demo)
-- [Procedure demo](#procedure-demo)
-- [Procedure layout demo](#procedure-layout-demo)
-- [Area diagram demo](#area-diagram-demo)
-- [Standard library demo](#standard-library-demo)
+- [Activity diagram](#activity-diagram)
+- [Component diagram of items](#component-diagram-of-items)
+- [State diagram](#state-diagram)
+- [Deployment diagram of items](#deployment-diagram-of-items)
+- [Timing diagram](#timing-diagram)
+- [Wireframe](#wireframe)
+- [Gantt chart](#gantt-chart)
+- [OpenIconic](#openiconic)
+- [Font Awesome](#font-awesome)
+- [Procedure](#procedure)
+- [Procedure layout](#procedure-layout)
+- [Area diagram](#area-diagram)
+- [Standard library](#standard-library)
 
 
-## Sequence diagram demo
+## Sequence diagram
 
 ![Sequence diagram](doc/sequence_diagram/sequence_diagram.png)
 
@@ -39,7 +39,7 @@ Bravo -> Alpha
 ```
 
 
-## Sequence diagram demo with steps and divider
+## Sequence diagram with steps and divider
 
 ![Sequence diagram extras](doc/sequence_diagram_extras/sequence_diagram_extras.png)
 
@@ -54,7 +54,7 @@ Bravo -> Alpha: Step 4
 @enduml
 ```
 
-## Sequence diagram demo with participant shapes
+## Sequence diagram with participant shapes
 
 ![Sequence diagram extras](doc/sequence_diagram_with_participant_shapes/sequence_diagram_with_participant_shapes.png)
 
@@ -79,7 +79,7 @@ Foo -> Foo7: To queue
 @enduml
 ```
 
-## Usecase diagram demo
+## Usecase diagram
 
 ![Usecase diagram](doc/usecase_diagram/usecase_diagram.png)
 
@@ -94,7 +94,7 @@ User1 --> (Story1)
 ```
 
 
-## Object diagram demo
+## Object diagram
 
 ![Object diagram](doc/object_diagram/object_diagram.png)
 
@@ -127,7 +127,7 @@ Object1 o-- Object4
 @enduml
 ```
 
-## Class diagram demo
+## Class diagram
 
 ![Class diagram](doc/class_diagram/class_diagram.png)
 
@@ -188,7 +188,7 @@ package "Demo Database" <<Database>> {
 ```
 
 
-## Activity diagram demo
+## Activity diagram
 
 ![Activity diagram](doc/activity_diagram/activity_diagram.png)
 
@@ -210,7 +210,7 @@ stop
 ```
 
 
-## Component diagram demo of items
+## Component diagram of items
 
 ![Component diagram](doc/component_diagram/component_diagram.png)
 
@@ -227,7 +227,7 @@ package "Package"
 ```
 
 
-## State diagram demo
+## State diagram
 
 ![State diagram](doc/state_diagram/state_diagram.png)
 
@@ -245,7 +245,7 @@ State3 : Description 3
 ```
 
 
-## Deployment diagram demo of items
+## Deployment diagram of items
 
 ![Deployment diagram](doc/deployment_diagram/deployment_diagram.png)
 
@@ -277,7 +277,7 @@ usecase usecase
 ```
 
 
-## Timing diagram demo
+## Timing diagram
 
 ![Timing diagram](doc/timing_diagram/timing_diagram.png)
 
@@ -294,7 +294,7 @@ concise "My Timeline" as T
 ```
 
 
-## Wireframe demo
+## Wireframe
 
 ![Wireframe](doc/wireframe/wireframe.png)
 
@@ -315,7 +315,7 @@ salt
 ```
 
 
-## Gantt chart demo
+## Gantt chart
 
 ![Gantt chart](doc/gantt_chart/gantt_chart.png)
 
@@ -329,20 +329,20 @@ then [Task3] on {Carol} lasts 2 days at 25%
 ```
 
 
-## OpenIconic demo
+## OpenIconic
 
 ![OpenIconic](doc/openiconic/openiconic.png)
 
 ```plantuml
 @startuml
-title: <&heart> Demo <&heart>
+title: <&heart> <&heart>
 @enduml
 ```
 
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 
-## Font Awesome demo
+## Font Awesome
 
 ![Font Awesome](doc/font_awesome/font_awesome.png)
 
@@ -355,7 +355,7 @@ rectangle "<$star>"
 ```
 
 
-## Procedure demo
+## Procedure
 
 ![Procedure diagram](doc/procedure/procedure.png)
 
@@ -372,7 +372,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 ```
 
 
-## Procedure layout demo
+## Procedure layout
 
 ![Procedure layout diagram](doc/procedure_layout/procedure_layout.png)
 
@@ -390,10 +390,10 @@ $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
 @enduml
 ```
 
-This demo shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
+This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
 
 
-## Area diagram demo
+## Area diagram
 
 ![Area diagram](doc/area_diagram/area_diagram.png)
 
@@ -402,7 +402,7 @@ This demo shows how to create your own procedure to create a custom layout with 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
 
-## Standard library demo
+## Standard library
 
 ![Standard library](doc/standard_library/standard_library.png)
 
