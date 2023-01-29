@@ -1,6 +1,6 @@
 # PlantUML examples
 
-[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, ASCII art, Gantt charts, C4 models, and more. 
+[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, WBS, ASCII art, Gantt charts, C4 models, and more. 
 
 
 ## Sequence diagram
@@ -475,6 +475,26 @@ nwdiag {
   }
 }
 @enduml
+</pre>
+</details>
+
+
+## Work breakdown structure (WBS)
+
+![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startwbs
+* Top
+** A
+*** A1
+*** A2
+** B
+*** B1
+*** B2
+@endwbs
 </pre>
 </details>
 
