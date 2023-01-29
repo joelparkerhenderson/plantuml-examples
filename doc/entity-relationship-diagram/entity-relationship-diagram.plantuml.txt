@@ -1,28 +1,25 @@
 @startuml
 skinparam monochrome true
 skinparam linetype ortho
-hide circle
+
+' If you want to hide the "E" circle, then uncomment this line:
+' hide circle
+
 entity Entity1 {
   Alpha
   Bravo
-  Charlie
 }
+
 entity Entity2 {
+  Charlie
   Delta
+}
+
+entity Entity3 {
   Echo
   Foxtrot
 }
-entity Entity3 {
-  Golf
-  Hotel
-  Indigo
-}
-entity Entity4 {
-  Juliet
-  Kilo
-  Lima
-}
-Entity1 }o-- Entity2
-Entity1 --o{ Entity3
-Entity1 }o-o{ Entity4
+
+Entity1 }o-down-o{ Entity2
+Entity1 }o-down-o{ Entity3
 @enduml

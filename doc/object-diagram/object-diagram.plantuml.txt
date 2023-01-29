@@ -1,26 +1,21 @@
 @startuml
 skinparam monochrome true
+
 object Object1 {
   Alpha
   Bravo
-  Charlie
 }
+
 object Object2 {
+  Charlie
   Delta
+}
+
+object Object3 {
   Echo
   Foxtrot
 }
-object Object3 {
-  Golf
-  Hotel
-  Indigo
-}
-object Object4 {
-  Juliet
-  Kilo
-  Lima
-}
+
 Object1 <|-- Object2
-Object1 *-- Object3
-Object1 o-- Object4
+Object1 <|-- Object3
 @enduml
