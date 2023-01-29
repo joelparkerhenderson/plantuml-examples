@@ -2,32 +2,7 @@
 
 PlantUML is a tool that uses text formatting to create graphic diagrams. See http://plantuml.com
 
-Contents:
-
-- [Sequence diagram](#sequence-diagram)
-- [Sequence diagram with steps and divider](#sequence-diagram-with-steps-and-divider)
-- [Sequence diagram with participant shapes](#sequence-diagram-with-participant-shapes)
-- [Usecase diagram](#usecase-diagram)
-- [Object diagram](#object-diagram)
-- [Class diagram](#class-diagram)
-- [Entity relationship diagram (ERD)](#entity-relationship-diagram-erd)
-- [Package styles](#package-styles)
-- [Activity diagram](#activity-diagram)
-- [Component diagram of items](#component-diagram-of-items)
-- [State diagram](#state-diagram)
-- [Deployment diagram of items](#deployment-diagram-of-items)
-- [Timing diagram](#timing-diagram)
-- [Diagrams through ASCII art (DITAA)](#diagrams-through-ascii-art-ditaa)
-- [Wireframe](#wireframe)
-- [Gantt chart](#gantt-chart)
-- [Mind map](#mind-map)
-- [OpenIconic](#openiconic)
-- [Font Awesome](#font-awesome)
-- [Procedure](#procedure)
-- [Procedure layout](#procedure-layout)
-- [Area diagram](#area-diagram)
-- [Standard library](#standard-library)
-- [C4 model](#c4-model)
+PlantUML offers many kinds of diagrams for UML, as well as for timing diagrams, Gantt charts, mind maps, C4 models, and more. This page shows beginner examples of PlantUML images and text.
 
 
 ## Sequence diagram
