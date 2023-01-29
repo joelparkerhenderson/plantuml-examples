@@ -1,0 +1,28 @@
+@startuml
+skinparam monochrome true
+skinparam linetype ortho
+hide circle
+entity Entity1 {
+  Alpha
+  Bravo
+  Charlie
+}
+entity Entity2 {
+  Delta
+  Echo
+  Foxtrot
+}
+entity Entity3 {
+  Golf
+  Hotel
+  Indigo
+}
+entity Entity4 {
+  Juliet
+  Kilo
+  Lima
+}
+Entity1 }o-- Entity2
+Entity1 --o{ Entity3
+Entity1 }o-o{ Entity4
+@enduml

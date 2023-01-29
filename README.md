@@ -10,6 +10,7 @@ Contents:
 - [Usecase diagram](#usecase-diagram)
 - [Object diagram](#object-diagram)
 - [Class diagram](#class-diagram)
+- [Entity relationship diagram (ERD)](#entity-relationship-diagram-erd)
 - [Package styles](#package-styles)
 - [Activity diagram](#activity-diagram)
 - [Component diagram of items](#component-diagram-of-items)
@@ -56,6 +57,7 @@ Bravo -> Alpha: Step 4
 @enduml
 ```
 
+
 ## Sequence diagram with participant shapes
 
 ![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
@@ -80,6 +82,7 @@ Foo -> Foo6 : To collections
 Foo -> Foo7: To queue
 @enduml
 ```
+
 
 ## Usecase diagram
 
@@ -129,6 +132,7 @@ Object1 o-- Object4
 @enduml
 ```
 
+
 ## Class diagram
 
 ![Class diagram](doc/class-diagram/class-diagram.plantuml.png)
@@ -161,6 +165,43 @@ Class1 *-- Class3
 Class1 o-- Class4
 @enduml
 ```
+
+
+## Entity relationship diagram (ERD)
+
+![Entity relationship diagram](doc/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
+
+```plantuml
+@startuml
+skinparam monochrome true
+skinparam linetype ortho
+hide circle
+entity Entity1 {
+  Alpha
+  Bravo
+  Charlie
+}
+entity Entity2 {
+  Delta
+  Echo
+  Foxtrot
+}
+entity Entity3 {
+  Golf
+  Hotel
+  Indigo
+}
+entity Entity4 {
+  Juliet
+  Kilo
+  Lima
+}
+Entity1 }o-- Entity2
+Entity1 --o{ Entity3
+Entity1 }o-o{ Entity4
+@enduml
+```
+
 
 ## Package styles
 
