@@ -422,6 +422,24 @@ then [Task3] on {Carol} lasts 2 days at 25%
 </details>
 
 
+## YAML data
+
+![YAML](doc/yaml-data/yaml-data.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startyaml
+fruit: Apple
+size: Large
+color: 
+  - Red
+  - Green
+@endyaml
+</pre>
+</details>
+
+
 ## OpenIconic
 
 ![OpenIconic](doc/openiconic/openiconic.plantuml.png)
@@ -646,7 +664,7 @@ stdlib
 You can list standard library folders by using the special diagram "stdlib".
 
 
-# OpenIconic list
+## OpenIconic list
 
 ![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
 
