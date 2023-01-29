@@ -1,6 +1,6 @@
 # PlantUML examples
 
-[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, wireframes, mind maps, ASCII art, Gantt charts, C4 models, and more. 
+[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, ASCII art, Gantt charts, C4 models, and more. 
 
 
 ## Sequence diagram
@@ -454,6 +454,27 @@ color:
   - Red
   - Green
 @endyaml
+</pre>
+</details>
+
+
+## Network diagram
+
+![Network diagram](doc/network-diagram/network-diagram.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+nwdiag {
+  network dmz {
+      address = "210.x.x.x/24"
+
+      web01 [address = "210.x.x.1"];
+      web02 [address = "210.x.x.2"];
+  }
+}
+@enduml
 </pre>
 </details>
 
