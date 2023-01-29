@@ -422,9 +422,27 @@ then [Task3] on {Carol} lasts 2 days at 25%
 </details>
 
 
+## JSON data
+
+![JSON data](doc/json-data/json-data.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startjson
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+@endjson
+</pre>
+</details>
+
+
 ## YAML data
 
-![YAML](doc/yaml-data/yaml-data.plantuml.png)
+![YAML data](doc/yaml-data/yaml-data.plantuml.png)
 
 <details>
 <summary>View Source</summary>
