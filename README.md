@@ -438,22 +438,6 @@ title: <&heart> Demo <&heart>
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 
-# OpenIconic list
-
-![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-listopeniconic
-@enduml
-</pre>
-</details>
-
-You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
-
-
 ## Font Awesome
 
 ![Font Awesome](doc/font-awesome/font-awesome.plantuml.png)
@@ -620,22 +604,6 @@ Pipeline3Control2 -u-> Pipeline3
 </details>
 
 
-## Standard library
-
-![Standard library](doc/standard-library/standard-library.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-stdlib
-@enduml
-</pre>
-</details>
-
-You can list standard library folders by using the special diagram "stdlib".
-
-
 ## C4 model
 
 ![C4 model](doc/c4-model/c4-model.plantuml.png)
@@ -659,6 +627,36 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 </pre>
 </details>
 
-The C4 Model focuses diagrams on four areas: Context, Containers, Components, Code.
+[C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
-<https://c4model.com/>
+
+## Standard library
+
+![Standard library](doc/standard-library/standard-library.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+stdlib
+@enduml
+</pre>
+</details>
+
+You can list standard library folders by using the special diagram "stdlib".
+
+
+# OpenIconic list
+
+![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+listopeniconic
+@enduml
+</pre>
+</details>
+
+You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
