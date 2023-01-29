@@ -336,7 +336,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ```plantuml
 @startuml
-title: <&heart> <&heart>
+title: <&heart> Demo <&heart>
 @enduml
 ```
 
