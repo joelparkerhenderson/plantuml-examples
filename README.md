@@ -17,6 +17,7 @@ Contents:
 - [State diagram](#state-diagram)
 - [Deployment diagram of items](#deployment-diagram-of-items)
 - [Timing diagram](#timing-diagram)
+- [Diagrams through ASCII art (DITAA)](#diagrams-through-ascii-art-ditaa)
 - [Wireframe](#wireframe)
 - [Gantt chart](#gantt-chart)
 - [Mind map](#mind-map)
@@ -106,29 +107,24 @@ User1 --> (Story1)
 ```plantuml
 @startuml
 skinparam monochrome true
+
 object Object1 {
   Alpha
   Bravo
-  Charlie
 }
+
 object Object2 {
+  Charlie
   Delta
+}
+
+object Object3 {
   Echo
   Foxtrot
 }
-object Object3 {
-  Golf
-  Hotel
-  Indigo
-}
-object Object4 {
-  Juliet
-  Kilo
-  Lima
-}
+
 Object1 <|-- Object2
-Object1 *-- Object3
-Object1 o-- Object4
+Object1 <|-- Object3
 @enduml
 ```
 
@@ -140,29 +136,27 @@ Object1 o-- Object4
 ```plantuml
 @startuml
 skinparam monochrome true
+
+' If you want to hide the "C" circle, then uncomment this line:
+' hide circle
+
 class Class1 {
   {field} Alpha
   {method} Bravo
-  {method} Charlie
 }
+
 class Class2 {
-  {field} Delta
-  {method} Echo
+  {field} Charlie
+  {method} Delta
+}
+
+class Class3 {
+  {field} Echo
   {method} Foxtrot
 }
-class Class3 {
-  {field} Golf
-  {method} Hotel
-  {method} Indigo
-}
-class Class4 {
-  {field} Juliet
-  {method} Kilo
-  {method} Lima
-}
-Class1 <|-- Class2
-Class1 *-- Class3
-Class1 o-- Class4
+
+Class1 <|--o Class2
+Class1 <|--* Class3
 @enduml
 ```
 
@@ -175,30 +169,27 @@ Class1 o-- Class4
 @startuml
 skinparam monochrome true
 skinparam linetype ortho
-hide circle
+
+' If you want to hide the "E" circle, then uncomment this line:
+' hide circle
+
 entity Entity1 {
   Alpha
   Bravo
-  Charlie
 }
+
 entity Entity2 {
+  Charlie
   Delta
+}
+
+entity Entity3 {
   Echo
   Foxtrot
 }
-entity Entity3 {
-  Golf
-  Hotel
-  Indigo
-}
-entity Entity4 {
-  Juliet
-  Kilo
-  Lima
-}
-Entity1 }o-- Entity2
-Entity1 --o{ Entity3
-Entity1 }o-o{ Entity4
+
+Entity1 }o-down-o{ Entity2
+Entity1 }o-down-o{ Entity3
 @enduml
 ```
 
@@ -333,6 +324,24 @@ concise "My Timeline" as T
 +100 is Bravo
 +100 is Charlie
 @50 <-> @+100 : My Note
+@enduml
+```
+
+
+## Diagrams through ASCII art (DITAA)
+
+```plantuml
+@startuml
+ditaa
++--------+   +-------+    +-------+
+|        +---+ ditaa +--> |       |
+|  Text  |   +-------+    |diagram|
+|Document|   |!magic!|    |       |
+|     {d}|   |       |    |       |
++---+----+   +-------+    +-------+
+    :                         ^
+    |       Lots of work      |
+    +-------------------------+
 @enduml
 ```
 
