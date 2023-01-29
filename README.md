@@ -287,7 +287,7 @@ State3 : Description 3
 </details>
 
 
-## Deployment diagram of items
+## Deployment diagram items
 
 ![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml.png)
 
