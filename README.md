@@ -299,7 +299,9 @@ agent agent
 artifact artifact
 boundary boundary
 card card
+circle circle
 cloud cloud
+collections collections
 component component
 control control
 database database
@@ -307,12 +309,15 @@ entity entity
 file file
 folder folder
 frame frame
-interface  interface
+hexagon hexagon
+interface interface
+label label
 node node
 package package
+person person
 queue queue
-stack stack
 rectangle rectangle
+stack stack
 storage storage
 usecase usecase
 @enduml
