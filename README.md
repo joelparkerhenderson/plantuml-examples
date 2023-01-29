@@ -1,8 +1,6 @@
-# PlantUML
+# PlantUML examples
 
-PlantUML is a tool that uses text formatting to create graphic diagrams. See http://plantuml.com
-
-PlantUML offers many kinds of diagrams for UML, as well as for timing diagrams, Gantt charts, mind maps, C4 models, and more. This page shows PlantUML examples with images and source text.
+[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, wireframes, mind maps, ASCII art, Gantt charts, C4 models, and more. 
 
 
 ## Sequence diagram
