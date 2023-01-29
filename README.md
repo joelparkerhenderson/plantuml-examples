@@ -18,6 +18,7 @@ Contents:
 - [Timing diagram](#timing-diagram)
 - [Wireframe](#wireframe)
 - [Gantt chart](#gantt-chart)
+- [Mind map](#mind-map)
 - [OpenIconic](#openiconic)
 - [Font Awesome](#font-awesome)
 - [Procedure](#procedure)
@@ -327,6 +328,21 @@ skinparam monochrome true
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
+```
+
+
+## Mind map
+
+![Mind map](doc/mind-map/mind-map.plantuml.png)
+
+```plantuml
+@startmindmap
++ C
+++ D
+++ E
+-- A
+-- B
+@endmindmap
 ```
 
 

@@ -1,0 +1,7 @@
+@startmindmap
++ C
+++ D
+++ E
+-- A
+-- B
+@endmindmap
