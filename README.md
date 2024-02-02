@@ -529,7 +529,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 <pre>
 @startuml
 skinparam monochrome true
-!include <font-awesome/star>
+!include &lt;font-awesome/star&gt;
 rectangle "<$star>"
 @enduml
 </pre>
