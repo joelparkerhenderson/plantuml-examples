@@ -248,7 +248,7 @@ concise "My Timeline" as T
 ## Wireframe
 
 ```plantuml
-salt
+@startsalt
 {
   Hello world
   [Button]
@@ -259,6 +259,7 @@ salt
   "Enter text here   "
   ^This is a droplist^
 }
+@endsalt
 ```
 
 ## Gantt chart
