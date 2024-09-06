@@ -132,19 +132,11 @@ entity Entity3 {
 
 Entity1 }o-down-o{ Entity2
 Entity1 }o-down-o{ Entity3
-@enduml
-</pre>
-</details>
-
+```
 
 ## Package styles
 
-![Package styles](doc/package-styles/package-styles.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 package "Demo Node" <<Node>> {
   object Object1
 }
@@ -168,7 +160,6 @@ package "Demo Database" <<Database>> {
 ## Activity diagram
 
 ```plantuml
-@startuml
 skinparam monochrome true
 start
 -> Starting;
