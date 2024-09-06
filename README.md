@@ -155,6 +155,7 @@ Class1 <|--* Class3
  <summary>Diagram 7 plantuml</summary>
 
 ```plantuml
+@startuml
 skinparam monochrome true
 skinparam linetype ortho
 
@@ -179,17 +180,16 @@ entity Entity3 {
 Entity1 }o-down-o{ Entity2
 Entity1 }o-down-o{ Entity3
 @enduml
-</pre>
+```
 </details>
-
 
 ## Package styles
 
-![Package styles](doc/package-styles/package-styles.plantuml.png)
-
+![Diagram 8](./doc/README_diagram_8.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 8 plantuml</summary>
+
+```plantuml
 @startuml
 package "Demo Node" <<Node>> {
   object Object1
@@ -209,14 +209,15 @@ package "Demo Cloud" <<Cloud>> {
 package "Demo Database" <<Database>> {
   object Object6
 }
+@enduml
 ```
 </details>
 
 ## Activity diagram
 
-![Diagram 8](./doc/README_diagram_8.svg)
+![Diagram 9](./doc/README_diagram_9.svg)
 <details>
- <summary>Diagram 8 plantuml</summary>
+ <summary>Diagram 9 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -232,14 +233,15 @@ endif
 :Activity 2;
 -> Stopping;
 stop
+@enduml
 ```
 </details>
 
 ## Component diagram of items
 
-![Diagram 9](./doc/README_diagram_9.svg)
+![Diagram 10](./doc/README_diagram_10.svg)
 <details>
- <summary>Diagram 9 plantuml</summary>
+ <summary>Diagram 10 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -256,9 +258,9 @@ package "Package"
 
 ## State diagram
 
-![Diagram 10](./doc/README_diagram_10.svg)
+![Diagram 11](./doc/README_diagram_11.svg)
 <details>
- <summary>Diagram 10 plantuml</summary>
+ <summary>Diagram 11 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -276,9 +278,9 @@ State3 : Description 3
 
 ## Deployment diagram items
 
-![Diagram 11](./doc/README_diagram_11.svg)
+![Diagram 12](./doc/README_diagram_12.svg)
 <details>
- <summary>Diagram 11 plantuml</summary>
+ <summary>Diagram 12 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -315,9 +317,9 @@ usecase usecase
 
 ## Timing diagram
 
-![Diagram 12](./doc/README_diagram_12.svg)
+![Diagram 13](./doc/README_diagram_13.svg)
 <details>
- <summary>Diagram 12 plantuml</summary>
+ <summary>Diagram 13 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -334,9 +336,9 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagram 13](./doc/README_diagram_13.svg)
+![Diagram 14](./doc/README_diagram_14.svg)
 <details>
- <summary>Diagram 13 plantuml</summary>
+ <summary>Diagram 14 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -356,9 +358,9 @@ ditaa
 
 ## Wireframe
 
-![Diagram 14](./doc/README_diagram_14.svg)
+![Diagram 15](./doc/README_diagram_15.svg)
 <details>
- <summary>Diagram 14 plantuml</summary>
+ <summary>Diagram 15 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -449,9 +451,9 @@ color:
 
 ## Network diagram
 
-![Diagram 15](./doc/README_diagram_15.svg)
+![Diagram 16](./doc/README_diagram_16.svg)
 <details>
- <summary>Diagram 15 plantuml</summary>
+ <summary>Diagram 16 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -489,9 +491,9 @@ nwdiag {
 
 ## OpenIconic
 
-![Diagram 16](./doc/README_diagram_16.svg)
+![Diagram 17](./doc/README_diagram_17.svg)
 <details>
- <summary>Diagram 16 plantuml</summary>
+ <summary>Diagram 17 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -506,9 +508,9 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Diagram 17](./doc/README_diagram_17.svg)
+![Diagram 18](./doc/README_diagram_18.svg)
 <details>
- <summary>Diagram 17 plantuml</summary>
+ <summary>Diagram 18 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -521,9 +523,9 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Diagram 18](./doc/README_diagram_18.svg)
+![Diagram 19](./doc/README_diagram_19.svg)
 <details>
- <summary>Diagram 18 plantuml</summary>
+ <summary>Diagram 19 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -540,9 +542,9 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
 
-![Diagram 19](./doc/README_diagram_19.svg)
+![Diagram 20](./doc/README_diagram_20.svg)
 <details>
- <summary>Diagram 19 plantuml</summary>
+ <summary>Diagram 20 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -564,9 +566,9 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
-![Diagram 20](./doc/README_diagram_20.svg)
+![Diagram 21](./doc/README_diagram_21.svg)
 <details>
- <summary>Diagram 20 plantuml</summary>
+ <summary>Diagram 21 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -666,9 +668,9 @@ Pipeline3Control2 -u-> Pipeline3
 
 ## C4 model
 
-![Diagram 21](./doc/README_diagram_21.svg)
+![Diagram 22](./doc/README_diagram_22.svg)
 <details>
- <summary>Diagram 21 plantuml</summary>
+ <summary>Diagram 22 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -692,9 +694,9 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ## Standard library
 
-![Diagram 22](./doc/README_diagram_22.svg)
+![Diagram 23](./doc/README_diagram_23.svg)
 <details>
- <summary>Diagram 22 plantuml</summary>
+ <summary>Diagram 23 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -707,9 +709,9 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![Diagram 23](./doc/README_diagram_23.svg)
+![Diagram 24](./doc/README_diagram_24.svg)
 <details>
- <summary>Diagram 23 plantuml</summary>
+ <summary>Diagram 24 plantuml</summary>
 
 ```plantuml
 @startuml
