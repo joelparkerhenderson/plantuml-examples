@@ -232,6 +232,7 @@ concise "My Timeline" as T
 ## Diagrams through ASCII art (DITAA)
 
 ```plantuml
+
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -243,11 +244,13 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
+
 ```
 
 ## Wireframe
 
 ```plantuml
+
 @startsalt
 {
   Hello world
@@ -260,17 +263,20 @@ concise "My Timeline" as T
   ^This is a droplist^
 }
 @endsalt
+
 ```
 
 ## Gantt chart
 
 ```plantuml
+
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
+
 ```
 
 ## Mind map
