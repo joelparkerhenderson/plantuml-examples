@@ -245,8 +245,13 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-```plantuml
-@startditaa
+![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+ditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -256,8 +261,9 @@ concise "My Timeline" as T
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@endditaa
-```
+@enduml
+</pre>
+</details>
 
 ## Wireframe
 
