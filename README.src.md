@@ -6,7 +6,6 @@
 ## Sequence diagram
 
 ```plantuml
-skinparam monochrome true
 Alpha -> Bravo
 Bravo -> Alpha
 ```
@@ -14,7 +13,6 @@ Bravo -> Alpha
 ## Sequence diagram with steps and divider
 
 ```plantuml
-skinparam monochrome true
 Alpha -> Bravo: Step 1
 Bravo -> Charlie: Step 2
 == My Divider ==
@@ -26,7 +24,6 @@ Bravo -> Alpha: Step 4
 ## Sequence diagram with participant shapes
 
 ```plantuml
-skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
 boundary    Boundary    as Foo2
@@ -48,7 +45,6 @@ Foo -> Foo7: To queue
 ## Usecase diagram
 
 ```plantuml
-skinparam monochrome true
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)
@@ -58,8 +54,6 @@ User1 --> (Story1)
 ## Object diagram
 
 ```plantuml
-skinparam monochrome true
-
 object Object1 {
   Alpha
   Bravo
@@ -82,8 +76,6 @@ Object1 <|-- Object3
 ## Class diagram
 
 ```plantuml
-skinparam monochrome true
-
 ' If you want to hide the "C" circle, then uncomment this line:
 ' hide circle
 
@@ -109,7 +101,6 @@ Class1 <|--* Class3
 ## Entity relationship diagram (ERD)
 
 ```plantuml
-skinparam monochrome true
 skinparam linetype ortho
 
 ' If you want to hide the "E" circle, then uncomment this line:
@@ -160,7 +151,6 @@ package "Demo Database" <<Database>> {
 ## Activity diagram
 
 ```plantuml
-skinparam monochrome true
 start
 -> Starting;
 :Activity 1;
@@ -177,7 +167,6 @@ stop
 ## Component diagram of items
 
 ```plantuml
-skinparam monochrome true
 component "Component"
 interface "Interface"
 database "Database"
@@ -189,7 +178,6 @@ package "Package"
 ## State diagram
 
 ```plantuml
-skinparam monochrome true
 [*] --> State1 : Start
 State1 -> State2 : Change1
 State2 -> State3 : Change2
@@ -202,7 +190,6 @@ State3 : Description 3
 ## Deployment diagram items
 
 ```plantuml
-skinparam monochrome true
 actor actor
 agent agent
 artifact artifact
@@ -234,7 +221,6 @@ usecase usecase
 ## Timing diagram
 
 ```plantuml
-skinparam monochrome true
 concise "My Timeline" as T
 @T
 0 is Alpha
@@ -384,7 +370,6 @@ nwdiag {
 </pre>
 </details>
 
-
 ## OpenIconic
 
 ```plantuml
@@ -426,17 +411,13 @@ skinparam defaultTextAlignment center
 !endprocedure
 
 $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
-
 ```
 
 This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
 
 ## Area diagram
 
-The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
-
 ```plantuml
-skinparam monochrome true
 skinparam defaultTextAlignment center
 
 ' icons
@@ -528,6 +509,8 @@ Pipeline3Control1 -u-> Pipeline3
 Pipeline3Control2 -u-> Pipeline3
 ```
 
+The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
+
 ## C4 model
 
 ```plantuml
@@ -544,7 +527,6 @@ Rel(personAlias, containerAlias, "Label", "Optional Technology")
 Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 ```
 
-
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
 ## Standard library
@@ -560,6 +542,5 @@ You can list standard library folders by using the special diagram "stdlib".
 ```plantuml
 listopeniconic
 ```
-
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
