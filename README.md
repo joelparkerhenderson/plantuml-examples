@@ -7,7 +7,7 @@
 
 ![Diagram 1](./doc/README_diagram_1.svg)
 <details>
- <summary>View Source of Diagram 1</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -21,7 +21,7 @@ Bravo -> Alpha
 
 ![Diagram 2](./doc/README_diagram_2.svg)
 <details>
- <summary>View Source of Diagram 2</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -39,7 +39,7 @@ Bravo -> Alpha: Step 4
 
 ![Diagram 3](./doc/README_diagram_3.svg)
 <details>
- <summary>View Source of Diagram 3</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -67,7 +67,7 @@ Foo -> Foo7: To queue
 
 ![Diagram 4](./doc/README_diagram_4.svg)
 <details>
- <summary>View Source of Diagram 4</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -83,7 +83,7 @@ User1 --> (Story1)
 
 ![Diagram 5](./doc/README_diagram_5.svg)
 <details>
- <summary>View Source of Diagram 5</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -112,7 +112,7 @@ Object1 <|-- Object3
 
 ![Diagram 6](./doc/README_diagram_6.svg)
 <details>
- <summary>View Source of Diagram 6</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -144,7 +144,7 @@ Class1 <|--* Class3
 
 ![Diagram 7](./doc/README_diagram_7.svg)
 <details>
- <summary>View Source of Diagram 7</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -178,7 +178,7 @@ Entity1 }o-down-o{ Entity3
 
 ![Diagram 8](./doc/README_diagram_8.svg)
 <details>
- <summary>View Source of Diagram 8</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -208,7 +208,7 @@ package "Demo Database" <<Database>> {
 
 ![Diagram 9](./doc/README_diagram_9.svg)
 <details>
- <summary>View Source of Diagram 9</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -231,7 +231,7 @@ stop
 
 ![Diagram 10](./doc/README_diagram_10.svg)
 <details>
- <summary>View Source of Diagram 10</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -249,7 +249,7 @@ package "Package"
 
 ![Diagram 11](./doc/README_diagram_11.svg)
 <details>
- <summary>View Source of Diagram 11</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -268,7 +268,7 @@ State3 : Description 3
 
 ![Diagram 12](./doc/README_diagram_12.svg)
 <details>
- <summary>View Source of Diagram 12</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -306,7 +306,7 @@ usecase usecase
 
 ![Diagram 13](./doc/README_diagram_13.svg)
 <details>
- <summary>View Source of Diagram 13</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -324,7 +324,7 @@ concise "My Timeline" as T
 
 ![Diagram 14](./doc/README_diagram_14.svg)
 <details>
- <summary>View Source of Diagram 14</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startditaa
@@ -345,7 +345,7 @@ concise "My Timeline" as T
 
 ![Diagram 15](./doc/README_diagram_15.svg)
 <details>
- <summary>View Source of Diagram 15</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startsalt
@@ -367,7 +367,7 @@ concise "My Timeline" as T
 
 ![Diagram 16](./doc/README_diagram_16.svg)
 <details>
- <summary>View Source of Diagram 16</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startgantt
@@ -383,7 +383,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 17](./doc/README_diagram_17.svg)
 <details>
- <summary>View Source of Diagram 17</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startmindmap
@@ -400,7 +400,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 18](./doc/README_diagram_18.svg)
 <details>
- <summary>View Source of Diagram 18</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startjson
@@ -417,7 +417,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 19](./doc/README_diagram_19.svg)
 <details>
- <summary>View Source of Diagram 19</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startyaml
@@ -434,7 +434,7 @@ color:
 
 ![Diagram 20](./doc/README_diagram_20.svg)
 <details>
- <summary>View Source of Diagram 20</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -454,7 +454,7 @@ nwdiag {
 
 ![Diagram 21](./doc/README_diagram_21.svg)
 <details>
- <summary>View Source of Diagram 21</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startwbs
@@ -473,7 +473,7 @@ nwdiag {
 
 ![Diagram 22](./doc/README_diagram_22.svg)
 <details>
- <summary>View Source of Diagram 22</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -490,7 +490,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ![Diagram 23](./doc/README_diagram_23.svg)
 <details>
- <summary>View Source of Diagram 23</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -505,7 +505,7 @@ rectangle "<$star>"
 
 ![Diagram 24](./doc/README_diagram_24.svg)
 <details>
- <summary>View Source of Diagram 24</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -522,7 +522,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ![Diagram 25](./doc/README_diagram_25.svg)
 <details>
- <summary>View Source of Diagram 25</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -543,7 +543,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ![Diagram 26](./doc/README_diagram_26.svg)
 <details>
- <summary>View Source of Diagram 26</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -646,7 +646,7 @@ The area diagram is an example deployment diagram that shows a bunch of areas an
 
 ![Diagram 27](./doc/README_diagram_27.svg)
 <details>
- <summary>View Source of Diagram 27</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -671,7 +671,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ![Diagram 28](./doc/README_diagram_28.svg)
 <details>
- <summary>View Source of Diagram 28</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
@@ -686,7 +686,7 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ![Diagram 29](./doc/README_diagram_29.svg)
 <details>
- <summary>View Source of Diagram 29</summary>
+ <summary>View Source</summary>
 
 ```plantuml
 @startuml
