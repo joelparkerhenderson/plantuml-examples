@@ -7,7 +7,7 @@
 
 ![Diagram 1](./doc/README_diagram_1.svg)
 <details>
- <summary>Diagram 1 plantuml</summary>
+ <summary>View Source of Diagram 1</summary>
 
 ```plantuml
 @startuml
@@ -21,7 +21,7 @@ Bravo -> Alpha
 
 ![Diagram 2](./doc/README_diagram_2.svg)
 <details>
- <summary>Diagram 2 plantuml</summary>
+ <summary>View Source of Diagram 2</summary>
 
 ```plantuml
 @startuml
@@ -39,7 +39,7 @@ Bravo -> Alpha: Step 4
 
 ![Diagram 3](./doc/README_diagram_3.svg)
 <details>
- <summary>Diagram 3 plantuml</summary>
+ <summary>View Source of Diagram 3</summary>
 
 ```plantuml
 @startuml
@@ -67,7 +67,7 @@ Foo -> Foo7: To queue
 
 ![Diagram 4](./doc/README_diagram_4.svg)
 <details>
- <summary>Diagram 4 plantuml</summary>
+ <summary>View Source of Diagram 4</summary>
 
 ```plantuml
 @startuml
@@ -83,7 +83,7 @@ User1 --> (Story1)
 
 ![Diagram 5](./doc/README_diagram_5.svg)
 <details>
- <summary>Diagram 5 plantuml</summary>
+ <summary>View Source of Diagram 5</summary>
 
 ```plantuml
 @startuml
@@ -112,7 +112,7 @@ Object1 <|-- Object3
 
 ![Diagram 6](./doc/README_diagram_6.svg)
 <details>
- <summary>Diagram 6 plantuml</summary>
+ <summary>View Source of Diagram 6</summary>
 
 ```plantuml
 @startuml
@@ -144,7 +144,7 @@ Class1 <|--* Class3
 
 ![Diagram 7](./doc/README_diagram_7.svg)
 <details>
- <summary>Diagram 7 plantuml</summary>
+ <summary>View Source of Diagram 7</summary>
 
 ```plantuml
 @startuml
@@ -178,7 +178,7 @@ Entity1 }o-down-o{ Entity3
 
 ![Diagram 8](./doc/README_diagram_8.svg)
 <details>
- <summary>Diagram 8 plantuml</summary>
+ <summary>View Source of Diagram 8</summary>
 
 ```plantuml
 @startuml
@@ -208,7 +208,7 @@ package "Demo Database" <<Database>> {
 
 ![Diagram 9](./doc/README_diagram_9.svg)
 <details>
- <summary>Diagram 9 plantuml</summary>
+ <summary>View Source of Diagram 9</summary>
 
 ```plantuml
 @startuml
@@ -231,7 +231,7 @@ stop
 
 ![Diagram 10](./doc/README_diagram_10.svg)
 <details>
- <summary>Diagram 10 plantuml</summary>
+ <summary>View Source of Diagram 10</summary>
 
 ```plantuml
 @startuml
@@ -249,7 +249,7 @@ package "Package"
 
 ![Diagram 11](./doc/README_diagram_11.svg)
 <details>
- <summary>Diagram 11 plantuml</summary>
+ <summary>View Source of Diagram 11</summary>
 
 ```plantuml
 @startuml
@@ -268,7 +268,7 @@ State3 : Description 3
 
 ![Diagram 12](./doc/README_diagram_12.svg)
 <details>
- <summary>Diagram 12 plantuml</summary>
+ <summary>View Source of Diagram 12</summary>
 
 ```plantuml
 @startuml
@@ -306,7 +306,7 @@ usecase usecase
 
 ![Diagram 13](./doc/README_diagram_13.svg)
 <details>
- <summary>Diagram 13 plantuml</summary>
+ <summary>View Source of Diagram 13</summary>
 
 ```plantuml
 @startuml
@@ -324,10 +324,9 @@ concise "My Timeline" as T
 
 ![Diagram 14](./doc/README_diagram_14.svg)
 <details>
- <summary>Diagram 14 plantuml</summary>
+ <summary>View Source of Diagram 14</summary>
 
 ```plantuml
-@startuml
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -339,7 +338,6 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
-@enduml
 ```
 </details>
 
@@ -347,11 +345,10 @@ concise "My Timeline" as T
 
 ![Diagram 15](./doc/README_diagram_15.svg)
 <details>
- <summary>Diagram 15 plantuml</summary>
+ <summary>View Source of Diagram 15</summary>
 
 ```plantuml
-@startuml
-salt
+@startsalt
 {
   Hello world
   [Button]
@@ -362,7 +359,7 @@ salt
   "Enter text here   "
   ^This is a droplist^
 }
-@enduml
+@endsalt
 ```
 </details>
 
@@ -370,17 +367,15 @@ salt
 
 ![Diagram 16](./doc/README_diagram_16.svg)
 <details>
- <summary>Diagram 16 plantuml</summary>
+ <summary>View Source of Diagram 16</summary>
 
 ```plantuml
-@startuml
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
-@enduml
 ```
 </details>
 
@@ -388,10 +383,9 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 17](./doc/README_diagram_17.svg)
 <details>
- <summary>Diagram 17 plantuml</summary>
+ <summary>View Source of Diagram 17</summary>
 
 ```plantuml
-@startuml
 @startmindmap
 + C
 ++ D
@@ -399,7 +393,6 @@ then [Task3] on {Carol} lasts 2 days at 25%
 -- A
 -- B
 @endmindmap
-@enduml
 ```
 </details>
 
@@ -407,10 +400,9 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 18](./doc/README_diagram_18.svg)
 <details>
- <summary>Diagram 18 plantuml</summary>
+ <summary>View Source of Diagram 18</summary>
 
 ```plantuml
-@startuml
 @startjson
 {
    "fruit":"Apple",
@@ -418,7 +410,6 @@ then [Task3] on {Carol} lasts 2 days at 25%
    "color": ["Red", "Green"]
 }
 @endjson
-@enduml
 ```
 </details>
 
@@ -426,10 +417,9 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ![Diagram 19](./doc/README_diagram_19.svg)
 <details>
- <summary>Diagram 19 plantuml</summary>
+ <summary>View Source of Diagram 19</summary>
 
 ```plantuml
-@startuml
 @startyaml
 fruit: Apple
 size: Large
@@ -437,7 +427,6 @@ color:
   - Red
   - Green
 @endyaml
-@enduml
 ```
 </details>
 
@@ -445,7 +434,7 @@ color:
 
 ![Diagram 20](./doc/README_diagram_20.svg)
 <details>
- <summary>Diagram 20 plantuml</summary>
+ <summary>View Source of Diagram 20</summary>
 
 ```plantuml
 @startuml
@@ -465,10 +454,9 @@ nwdiag {
 
 ![Diagram 21](./doc/README_diagram_21.svg)
 <details>
- <summary>Diagram 21 plantuml</summary>
+ <summary>View Source of Diagram 21</summary>
 
 ```plantuml
-@startuml
 @startwbs
 * Top
 ** A
@@ -478,7 +466,6 @@ nwdiag {
 *** B1
 *** B2
 @endwbs
-@enduml
 ```
 </details>
 
@@ -486,7 +473,7 @@ nwdiag {
 
 ![Diagram 22](./doc/README_diagram_22.svg)
 <details>
- <summary>Diagram 22 plantuml</summary>
+ <summary>View Source of Diagram 22</summary>
 
 ```plantuml
 @startuml
@@ -503,7 +490,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ![Diagram 23](./doc/README_diagram_23.svg)
 <details>
- <summary>Diagram 23 plantuml</summary>
+ <summary>View Source of Diagram 23</summary>
 
 ```plantuml
 @startuml
@@ -518,7 +505,7 @@ rectangle "<$star>"
 
 ![Diagram 24](./doc/README_diagram_24.svg)
 <details>
- <summary>Diagram 24 plantuml</summary>
+ <summary>View Source of Diagram 24</summary>
 
 ```plantuml
 @startuml
@@ -535,7 +522,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ![Diagram 25](./doc/README_diagram_25.svg)
 <details>
- <summary>Diagram 25 plantuml</summary>
+ <summary>View Source of Diagram 25</summary>
 
 ```plantuml
 @startuml
@@ -556,7 +543,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ![Diagram 26](./doc/README_diagram_26.svg)
 <details>
- <summary>Diagram 26 plantuml</summary>
+ <summary>View Source of Diagram 26</summary>
 
 ```plantuml
 @startuml
@@ -659,7 +646,7 @@ The area diagram is an example deployment diagram that shows a bunch of areas an
 
 ![Diagram 27](./doc/README_diagram_27.svg)
 <details>
- <summary>Diagram 27 plantuml</summary>
+ <summary>View Source of Diagram 27</summary>
 
 ```plantuml
 @startuml
@@ -684,7 +671,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ![Diagram 28](./doc/README_diagram_28.svg)
 <details>
- <summary>Diagram 28 plantuml</summary>
+ <summary>View Source of Diagram 28</summary>
 
 ```plantuml
 @startuml
@@ -699,7 +686,7 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ![Diagram 29](./doc/README_diagram_29.svg)
 <details>
- <summary>Diagram 29 plantuml</summary>
+ <summary>View Source of Diagram 29</summary>
 
 ```plantuml
 @startuml
