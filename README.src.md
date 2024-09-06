@@ -353,6 +353,7 @@ color:
 ## Network diagram
 
 ```plantuml
+
 nwdiag {
   network dmz {
       address = "210.x.x.x/24"
@@ -361,6 +362,7 @@ nwdiag {
       web02 [address = "210.x.x.2"];
   }
 }
+
 ```
 
 ## Work breakdown structure (WBS)
