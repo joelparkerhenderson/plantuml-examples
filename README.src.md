@@ -400,8 +400,6 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
-
 ```plantuml
 skinparam defaultTextAlignment center
 
