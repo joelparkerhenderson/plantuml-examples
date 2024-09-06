@@ -336,13 +336,13 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagram 14](./doc/README_diagram_14.svg)
-<details>
- <summary>Diagram 14 plantuml</summary>
+![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
 
-```plantuml
+<details>
+<summary>View Source</summary>
+<pre>
 @startuml
-@startditaa
+ditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -352,16 +352,15 @@ concise "My Timeline" as T
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@endditaa
 @enduml
-```
+</pre>
 </details>
 
 ## Wireframe
 
-![Diagram 15](./doc/README_diagram_15.svg)
+![Diagram 14](./doc/README_diagram_14.svg)
 <details>
- <summary>Diagram 15 plantuml</summary>
+ <summary>Diagram 14 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -452,9 +451,9 @@ color:
 
 ## Network diagram
 
-![Diagram 16](./doc/README_diagram_16.svg)
+![Diagram 15](./doc/README_diagram_15.svg)
 <details>
- <summary>Diagram 16 plantuml</summary>
+ <summary>Diagram 15 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -492,9 +491,9 @@ nwdiag {
 
 ## OpenIconic
 
-![Diagram 17](./doc/README_diagram_17.svg)
+![Diagram 16](./doc/README_diagram_16.svg)
 <details>
- <summary>Diagram 17 plantuml</summary>
+ <summary>Diagram 16 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -509,9 +508,9 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Diagram 18](./doc/README_diagram_18.svg)
+![Diagram 17](./doc/README_diagram_17.svg)
 <details>
- <summary>Diagram 18 plantuml</summary>
+ <summary>Diagram 17 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -524,9 +523,9 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Diagram 19](./doc/README_diagram_19.svg)
+![Diagram 18](./doc/README_diagram_18.svg)
 <details>
- <summary>Diagram 19 plantuml</summary>
+ <summary>Diagram 18 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -543,9 +542,9 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
 
-![Diagram 20](./doc/README_diagram_20.svg)
+![Diagram 19](./doc/README_diagram_19.svg)
 <details>
- <summary>Diagram 20 plantuml</summary>
+ <summary>Diagram 19 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -567,9 +566,9 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
-![Diagram 21](./doc/README_diagram_21.svg)
+![Diagram 20](./doc/README_diagram_20.svg)
 <details>
- <summary>Diagram 21 plantuml</summary>
+ <summary>Diagram 20 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -669,9 +668,9 @@ Pipeline3Control2 -u-> Pipeline3
 
 ## C4 model
 
-![Diagram 22](./doc/README_diagram_22.svg)
+![Diagram 21](./doc/README_diagram_21.svg)
 <details>
- <summary>Diagram 22 plantuml</summary>
+ <summary>Diagram 21 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -695,9 +694,9 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ## Standard library
 
-![Diagram 23](./doc/README_diagram_23.svg)
+![Diagram 22](./doc/README_diagram_22.svg)
 <details>
- <summary>Diagram 23 plantuml</summary>
+ <summary>Diagram 22 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -710,9 +709,9 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![Diagram 24](./doc/README_diagram_24.svg)
+![Diagram 23](./doc/README_diagram_23.svg)
 <details>
- <summary>Diagram 24 plantuml</summary>
+ <summary>Diagram 23 plantuml</summary>
 
 ```plantuml
 @startuml
