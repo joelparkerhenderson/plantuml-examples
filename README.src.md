@@ -246,7 +246,7 @@ concise "My Timeline" as T
 ## Diagrams through ASCII art (DITAA)
 
 ```plantuml
-ditaa
+@startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -256,6 +256,7 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
+@endditaa
 ```
 
 ## Wireframe
