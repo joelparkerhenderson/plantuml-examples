@@ -11,7 +11,6 @@
 
 ```plantuml
 @startuml
-skinparam monochrome true
 Alpha -> Bravo
 Bravo -> Alpha
 @enduml
@@ -26,7 +25,6 @@ Bravo -> Alpha
 
 ```plantuml
 @startuml
-skinparam monochrome true
 Alpha -> Bravo: Step 1
 Bravo -> Charlie: Step 2
 == My Divider ==
@@ -45,7 +43,6 @@ Bravo -> Alpha: Step 4
 
 ```plantuml
 @startuml
-skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
 boundary    Boundary    as Foo2
@@ -74,7 +71,6 @@ Foo -> Foo7: To queue
 
 ```plantuml
 @startuml
-skinparam monochrome true
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)
@@ -91,8 +87,6 @@ User1 --> (Story1)
 
 ```plantuml
 @startuml
-skinparam monochrome true
-
 object Object1 {
   Alpha
   Bravo
@@ -122,8 +116,6 @@ Object1 <|-- Object3
 
 ```plantuml
 @startuml
-skinparam monochrome true
-
 ' If you want to hide the "C" circle, then uncomment this line:
 ' hide circle
 
@@ -156,7 +148,6 @@ Class1 <|--* Class3
 
 ```plantuml
 @startuml
-skinparam monochrome true
 skinparam linetype ortho
 
 ' If you want to hide the "E" circle, then uncomment this line:
@@ -221,7 +212,6 @@ package "Demo Database" <<Database>> {
 
 ```plantuml
 @startuml
-skinparam monochrome true
 start
 -> Starting;
 :Activity 1;
@@ -245,7 +235,6 @@ stop
 
 ```plantuml
 @startuml
-skinparam monochrome true
 component "Component"
 interface "Interface"
 database "Database"
@@ -264,7 +253,6 @@ package "Package"
 
 ```plantuml
 @startuml
-skinparam monochrome true
 [*] --> State1 : Start
 State1 -> State2 : Change1
 State2 -> State3 : Change2
@@ -284,7 +272,6 @@ State3 : Description 3
 
 ```plantuml
 @startuml
-skinparam monochrome true
 actor actor
 agent agent
 artifact artifact
@@ -323,7 +310,6 @@ usecase usecase
 
 ```plantuml
 @startuml
-skinparam monochrome true
 concise "My Timeline" as T
 @T
 0 is Alpha
@@ -487,7 +473,6 @@ nwdiag {
 </pre>
 </details>
 
-
 ## OpenIconic
 
 ![Diagram 16](./doc/README_diagram_16.svg)
@@ -563,15 +548,12 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
-
 ![Diagram 20](./doc/README_diagram_20.svg)
 <details>
  <summary>Diagram 20 plantuml</summary>
 
 ```plantuml
 @startuml
-skinparam monochrome true
 skinparam defaultTextAlignment center
 
 ' icons
@@ -665,6 +647,8 @@ Pipeline3Control2 -u-> Pipeline3
 ```
 </details>
 
+The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
+
 ## C4 model
 
 ![Diagram 21](./doc/README_diagram_21.svg)
@@ -687,7 +671,6 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 @enduml
 ```
 </details>
-
 
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
@@ -718,6 +701,5 @@ listopeniconic
 @enduml
 ```
 </details>
-
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
