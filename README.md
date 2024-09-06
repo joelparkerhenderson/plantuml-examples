@@ -342,7 +342,7 @@ concise "My Timeline" as T
 
 ```plantuml
 @startuml
-ditaa
+@startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -352,6 +352,7 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
+@endditaa
 @enduml
 ```
 </details>
