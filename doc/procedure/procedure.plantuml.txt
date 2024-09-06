@@ -1,9 +1,0 @@
-@startuml
-
-!procedure $demo($name, $headline, $description)
-  card $name as "\n<size:22>$headline</size>\n\n<size:12>$description</size>\n"
-!endprocedure
-
-$demo(MyCard, "Hello World", "This is a demonstration")
-
-@enduml

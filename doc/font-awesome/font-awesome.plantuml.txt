@@ -1,5 +1,0 @@
-@startuml
-skinparam monochrome true
-!include <font-awesome/star>
-rectangle "<$star>"
-@enduml

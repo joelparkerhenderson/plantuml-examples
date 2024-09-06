@@ -1,9 +1,0 @@
-@startuml
-skinparam monochrome true
-component "Component"
-interface "Interface"
-database "Database"
-cloud "Cloud"
-node "Node"
-package "Package"
-@enduml

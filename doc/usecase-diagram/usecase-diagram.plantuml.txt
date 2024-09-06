@@ -1,7 +1,0 @@
-@startuml
-skinparam monochrome true
-left to right direction
-User1 --> (Story1)
-(Story1) --> (Story2)
-(Story2) --> (Story3)
-@enduml

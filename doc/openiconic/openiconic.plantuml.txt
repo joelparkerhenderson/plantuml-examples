@@ -1,3 +1,0 @@
-@startuml
-title: <&heart> Demo <&heart>
-@enduml

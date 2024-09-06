@@ -1,5 +1,0 @@
-@startuml
-skinparam monochrome true
-Alpha -> Bravo
-Bravo -> Alpha
-@enduml
