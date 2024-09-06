@@ -532,7 +532,6 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ```plantuml
 @startuml
-skinparam monochrome true
 skinparam defaultTextAlignment center
 
 !procedure $layout($shape, $name, $openiconic, $headline, $description)
