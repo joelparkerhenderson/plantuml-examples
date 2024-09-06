@@ -403,7 +403,6 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 ![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
 
 ```plantuml
-skinparam monochrome true
 skinparam defaultTextAlignment center
 
 !procedure $layout($shape, $name, $openiconic, $headline, $description)
@@ -411,6 +410,7 @@ skinparam defaultTextAlignment center
 !endprocedure
 
 $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
+
 ```
 
 This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
