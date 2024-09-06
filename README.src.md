@@ -5,47 +5,27 @@
 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 Alpha -> Bravo
 Bravo -> Alpha
-@enduml
-</pre>
-</details>
-
+```
 
 ## Sequence diagram with steps and divider
 
-![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 Alpha -> Bravo: Step 1
 Bravo -> Charlie: Step 2
 == My Divider ==
 Charlie -> Bravo: Step 3
 Bravo -> Alpha: Step 4
-@enduml
-</pre>
-</details>
+```
 
 
 ## Sequence diagram with participant shapes
 
-![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
@@ -62,37 +42,22 @@ Foo -> Foo4 : To entity
 Foo -> Foo5 : To database
 Foo -> Foo6 : To collections
 Foo -> Foo7: To queue
-@enduml
-</pre>
-</details>
+```
 
 
 ## Usecase diagram
 
-![Usecase diagram](doc/usecase-diagram/usecase-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 left to right direction
 User1 --> (Story1)
 (Story1) --> (Story2)
 (Story2) --> (Story3)
-@enduml
-</pre>
-</details>
-
+```
 
 ## Object diagram
 
-![Object diagram](doc/object-diagram/object-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 
 object Object1 {
@@ -112,19 +77,11 @@ object Object3 {
 
 Object1 <|-- Object2
 Object1 <|-- Object3
-@enduml
-</pre>
-</details>
-
+```
 
 ## Class diagram
 
-![Class diagram](doc/class-diagram/class-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 
 ' If you want to hide the "C" circle, then uncomment this line:
@@ -147,19 +104,11 @@ class Class3 {
 
 Class1 <|--o Class2
 Class1 <|--* Class3
-@enduml
-</pre>
-</details>
-
+```
 
 ## Entity relationship diagram (ERD)
 
-![Entity relationship diagram](doc/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 skinparam linetype ortho
 
@@ -214,18 +163,11 @@ package "Demo Cloud" <<Cloud>> {
 package "Demo Database" <<Database>> {
   object Object6
 }
-@enduml
-</pre>
-</details>
-
+```
 
 ## Activity diagram
 
-![Activity diagram](doc/activity-diagram/activity-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startuml
 skinparam monochrome true
 start
@@ -239,19 +181,11 @@ endif
 :Activity 2;
 -> Stopping;
 stop
-@enduml
-</pre>
-</details>
-
+```
 
 ## Component diagram of items
 
-![Component diagram](doc/component-diagram/component-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 component "Component"
 interface "Interface"
@@ -259,19 +193,11 @@ database "Database"
 cloud "Cloud"
 node "Node"
 package "Package"
-@enduml
-</pre>
-</details>
-
+```
 
 ## State diagram
 
-![State diagram](doc/state-diagram/state-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 [*] --> State1 : Start
 State1 -> State2 : Change1
@@ -280,19 +206,11 @@ State3 --> [*] : Stop
 State1 : Description 1
 State2 : Description 2
 State3 : Description 3
-@enduml
-</pre>
-</details>
-
+```
 
 ## Deployment diagram items
 
-![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 actor actor
 agent agent
@@ -320,19 +238,11 @@ rectangle rectangle
 stack stack
 storage storage
 usecase usecase
-@enduml
-</pre>
-</details>
-
+```
 
 ## Timing diagram
 
-![Timing diagram](doc/timing-diagram/timing-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 concise "My Timeline" as T
 @T
@@ -340,19 +250,11 @@ concise "My Timeline" as T
 +100 is Bravo
 +100 is Charlie
 @50 <-> @+100 : My Note
-@enduml
-</pre>
-</details>
-
+```
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 ditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -363,19 +265,11 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@enduml
-</pre>
-</details>
-
+```
 
 ## Wireframe
 
-![Wireframe](doc/wireframe/wireframe.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 salt
 {
   Hello world
@@ -387,10 +281,7 @@ salt
   "Enter text here   "
   ^This is a droplist^
 }
-@enduml
-</pre>
-</details>
-
+```
 
 ## Gantt chart
 
@@ -407,7 +298,6 @@ then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
 </pre>
 </details>
-
 
 ## Mind map
 
@@ -465,12 +355,7 @@ color:
 
 ## Network diagram
 
-![Network diagram](doc/network-diagram/network-diagram.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 nwdiag {
   network dmz {
       address = "210.x.x.x/24"
@@ -479,10 +364,7 @@ nwdiag {
       web02 [address = "210.x.x.2"];
   }
 }
-@enduml
-</pre>
-</details>
-
+```
 
 ## Work breakdown structure (WBS)
 
@@ -506,64 +388,37 @@ nwdiag {
 
 ## OpenIconic
 
-![OpenIconic](doc/openiconic/openiconic.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 title: <&heart> Demo <&heart>
-@enduml
+```
 </pre>
 </details>
 
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
-
 ## Font Awesome
 
-![Font Awesome](doc/font-awesome/font-awesome.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 !include &lt;font-awesome/star&gt;
 rectangle "<$star>"
-@enduml
-</pre>
-</details>
-
+```
 
 ## Procedure
 
-![Procedure diagram](doc/procedure/procedure.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-
+```plantuml
 !procedure $demo($name, $headline, $description)
   card $name as "\n<size:22>$headline</size>\n\n<size:12>$description</size>\n"
 !endprocedure
 
 $demo(MyCard, "Hello World", "This is a demonstration")
-
-@enduml
-</pre>
-</details>
-
+```
 
 ## Procedure layout
 
 ![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
 
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 skinparam defaultTextAlignment center
 
@@ -573,23 +428,15 @@ skinparam defaultTextAlignment center
 
 $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
 
-@enduml
-</pre>
-</details>
+```
 
 This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
 
-
 ## Area diagram
-
-![Area diagram](doc/area-diagram/area-diagram.plantuml.png)
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 skinparam monochrome true
 skinparam defaultTextAlignment center
 
@@ -680,20 +527,11 @@ control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Contr
 control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Control2
 Pipeline3Control1 -u-> Pipeline3
 Pipeline3Control2 -u-> Pipeline3
-
-@enduml
-</pre>
-</details>
-
+```
 
 ## C4 model
 
-![C4 model](doc/c4-model/c4-model.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 !include <C4/C4_Container>
 
 Person(personAlias, "Label", "Optional Description")
@@ -705,40 +543,24 @@ System_Ext(extSystemAlias, "Label", "Optional Description")
 Rel(personAlias, containerAlias, "Label", "Optional Technology")
 
 Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
-@enduml
-</pre>
-</details>
+```
+
 
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
-
 ## Standard library
 
-![Standard library](doc/standard-library/standard-library.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 stdlib
-@enduml
-</pre>
-</details>
+```
 
 You can list standard library folders by using the special diagram "stdlib".
 
-
 ## OpenIconic list
 
-![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml
 listopeniconic
-@enduml
-</pre>
-</details>
+```
+
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
