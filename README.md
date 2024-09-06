@@ -327,6 +327,7 @@ concise "My Timeline" as T
  <summary>View Source</summary>
 
 ```plantuml
+
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -338,6 +339,7 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
+
 ```
 </details>
 
@@ -348,6 +350,7 @@ concise "My Timeline" as T
  <summary>View Source</summary>
 
 ```plantuml
+
 @startsalt
 {
   Hello world
@@ -360,6 +363,7 @@ concise "My Timeline" as T
   ^This is a droplist^
 }
 @endsalt
+
 ```
 </details>
 
@@ -370,12 +374,14 @@ concise "My Timeline" as T
  <summary>View Source</summary>
 
 ```plantuml
+
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
+
 ```
 </details>
 
