@@ -250,8 +250,7 @@ concise "My Timeline" as T
 <details>
 <summary>View Source</summary>
 <pre>
-@startuml
-ditaa
+@startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -261,7 +260,7 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@enduml
+@endditaa
 </pre>
 </details>
 
