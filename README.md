@@ -322,11 +322,12 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
-
+![Diagram 14](./doc/README_diagram_14.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 14 plantuml</summary>
+
+```plantuml
+@startuml
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -338,14 +339,15 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
-</pre>
+@enduml
+```
 </details>
 
 ## Wireframe
 
-![Diagram 14](./doc/README_diagram_14.svg)
+![Diagram 15](./doc/README_diagram_15.svg)
 <details>
- <summary>Diagram 14 plantuml</summary>
+ <summary>Diagram 15 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -366,27 +368,30 @@ salt
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt-chart/gantt-chart.plantuml.png)
-
+![Diagram 16](./doc/README_diagram_16.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 16 plantuml</summary>
+
+```plantuml
+@startuml
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
-</pre>
+@enduml
+```
 </details>
 
 ## Mind map
 
-![Mind map](doc/mind-map/mind-map.plantuml.png)
-
+![Diagram 17](./doc/README_diagram_17.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 17 plantuml</summary>
+
+```plantuml
+@startuml
 @startmindmap
 + C
 ++ D
@@ -394,17 +399,18 @@ then [Task3] on {Carol} lasts 2 days at 25%
 -- A
 -- B
 @endmindmap
-</pre>
+@enduml
+```
 </details>
-
 
 ## JSON data
 
-![JSON data](doc/json-data/json-data.plantuml.png)
-
+![Diagram 18](./doc/README_diagram_18.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 18 plantuml</summary>
+
+```plantuml
+@startuml
 @startjson
 {
    "fruit":"Apple",
@@ -412,17 +418,18 @@ then [Task3] on {Carol} lasts 2 days at 25%
    "color": ["Red", "Green"]
 }
 @endjson
-</pre>
+@enduml
+```
 </details>
-
 
 ## YAML data
 
-![YAML data](doc/yaml-data/yaml-data.plantuml.png)
-
+![Diagram 19](./doc/README_diagram_19.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 19 plantuml</summary>
+
+```plantuml
+@startuml
 @startyaml
 fruit: Apple
 size: Large
@@ -430,15 +437,15 @@ color:
   - Red
   - Green
 @endyaml
-</pre>
+@enduml
+```
 </details>
-
 
 ## Network diagram
 
-![Diagram 15](./doc/README_diagram_15.svg)
+![Diagram 20](./doc/README_diagram_20.svg)
 <details>
- <summary>Diagram 15 plantuml</summary>
+ <summary>Diagram 20 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -456,11 +463,12 @@ nwdiag {
 
 ## Work breakdown structure (WBS)
 
-![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml.png)
-
+![Diagram 21](./doc/README_diagram_21.svg)
 <details>
-<summary>View Source</summary>
-<pre>
+ <summary>Diagram 21 plantuml</summary>
+
+```plantuml
+@startuml
 @startwbs
 * Top
 ** A
@@ -470,14 +478,15 @@ nwdiag {
 *** B1
 *** B2
 @endwbs
-</pre>
+@enduml
+```
 </details>
 
 ## OpenIconic
 
-![Diagram 16](./doc/README_diagram_16.svg)
+![Diagram 22](./doc/README_diagram_22.svg)
 <details>
- <summary>Diagram 16 plantuml</summary>
+ <summary>Diagram 22 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -492,9 +501,9 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Diagram 17](./doc/README_diagram_17.svg)
+![Diagram 23](./doc/README_diagram_23.svg)
 <details>
- <summary>Diagram 17 plantuml</summary>
+ <summary>Diagram 23 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -507,9 +516,9 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Diagram 18](./doc/README_diagram_18.svg)
+![Diagram 24](./doc/README_diagram_24.svg)
 <details>
- <summary>Diagram 18 plantuml</summary>
+ <summary>Diagram 24 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -524,9 +533,9 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Diagram 19](./doc/README_diagram_19.svg)
+![Diagram 25](./doc/README_diagram_25.svg)
 <details>
- <summary>Diagram 19 plantuml</summary>
+ <summary>Diagram 25 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -545,9 +554,9 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-![Diagram 20](./doc/README_diagram_20.svg)
+![Diagram 26](./doc/README_diagram_26.svg)
 <details>
- <summary>Diagram 20 plantuml</summary>
+ <summary>Diagram 26 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -648,9 +657,9 @@ The area diagram is an example deployment diagram that shows a bunch of areas an
 
 ## C4 model
 
-![Diagram 21](./doc/README_diagram_21.svg)
+![Diagram 27](./doc/README_diagram_27.svg)
 <details>
- <summary>Diagram 21 plantuml</summary>
+ <summary>Diagram 27 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -673,9 +682,9 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ## Standard library
 
-![Diagram 22](./doc/README_diagram_22.svg)
+![Diagram 28](./doc/README_diagram_28.svg)
 <details>
- <summary>Diagram 22 plantuml</summary>
+ <summary>Diagram 28 plantuml</summary>
 
 ```plantuml
 @startuml
@@ -688,9 +697,9 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![Diagram 23](./doc/README_diagram_23.svg)
+![Diagram 29](./doc/README_diagram_29.svg)
 <details>
- <summary>Diagram 23 plantuml</summary>
+ <summary>Diagram 29 plantuml</summary>
 
 ```plantuml
 @startuml
