@@ -524,8 +524,6 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
-
 ![Diagram 19](./doc/README_diagram_19.svg)
 <details>
  <summary>Diagram 19 plantuml</summary>
