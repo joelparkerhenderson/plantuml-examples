@@ -231,11 +231,7 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -247,8 +243,7 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
-</pre>
-</details>
+```
 
 ## Wireframe
 
@@ -268,27 +263,18 @@ salt
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt-chart/gantt-chart.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startgantt
 skinparam monochrome true
 [Task1] on {Alice} lasts 8 days
 then [Task2] on {Bob} lasts 4 days at 50%
 then [Task3] on {Carol} lasts 2 days at 25%
 @endgantt
-</pre>
-</details>
+```
 
 ## Mind map
 
-![Mind map](doc/mind-map/mind-map.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startmindmap
 + C
 ++ D
@@ -296,17 +282,11 @@ then [Task3] on {Carol} lasts 2 days at 25%
 -- A
 -- B
 @endmindmap
-</pre>
-</details>
-
+```
 
 ## JSON data
 
-![JSON data](doc/json-data/json-data.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startjson
 {
    "fruit":"Apple",
@@ -314,17 +294,11 @@ then [Task3] on {Carol} lasts 2 days at 25%
    "color": ["Red", "Green"]
 }
 @endjson
-</pre>
-</details>
-
+```
 
 ## YAML data
 
-![YAML data](doc/yaml-data/yaml-data.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startyaml
 fruit: Apple
 size: Large
@@ -332,9 +306,7 @@ color:
   - Red
   - Green
 @endyaml
-</pre>
-</details>
-
+```
 
 ## Network diagram
 
@@ -353,11 +325,7 @@ nwdiag {
 
 ## Work breakdown structure (WBS)
 
-![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
+```plantuml
 @startwbs
 * Top
 ** A
@@ -367,8 +335,7 @@ nwdiag {
 *** B1
 *** B2
 @endwbs
-</pre>
-</details>
+```
 
 ## OpenIconic
 
