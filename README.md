@@ -5,7 +5,7 @@
 
 ## Sequence diagram
 
-![Diagram 1](./doc/README_diagram_1)
+![Diagram 1](./doc/README_diagram_1.svg)
 <details>
  <summary>View Source</summary>
 
@@ -19,7 +19,7 @@ Bravo -> Alpha
 
 ## Sequence diagram with steps and divider
 
-![Diagram 2](./doc/README_diagram_2)
+![Diagram 2](./doc/README_diagram_2.svg)
 <details>
  <summary>View Source</summary>
 
@@ -37,7 +37,7 @@ Bravo -> Alpha: Step 4
 
 ## Sequence diagram with participant shapes
 
-![Diagram 3](./doc/README_diagram_3)
+![Diagram 3](./doc/README_diagram_3.svg)
 <details>
  <summary>View Source</summary>
 
@@ -62,10 +62,9 @@ Foo -> Foo7: To queue
 ```
 </details>
 
-
 ## Usecase diagram
 
-![Diagram 4](./doc/README_diagram_4)
+![Diagram 4](./doc/README_diagram_4.svg)
 <details>
  <summary>View Source</summary>
 
@@ -81,7 +80,7 @@ User1 --> (Story1)
 
 ## Object diagram
 
-![Diagram 5](./doc/README_diagram_5)
+![Diagram 5](./doc/README_diagram_5.svg)
 <details>
  <summary>View Source</summary>
 
@@ -110,7 +109,7 @@ Object1 <|-- Object3
 
 ## Class diagram
 
-![Diagram 6](./doc/README_diagram_6)
+![Diagram 6](./doc/README_diagram_6.svg)
 <details>
  <summary>View Source</summary>
 
@@ -142,7 +141,7 @@ Class1 <|--* Class3
 
 ## Entity relationship diagram (ERD)
 
-![Diagram 7](./doc/README_diagram_7)
+![Diagram 7](./doc/README_diagram_7.svg)
 <details>
  <summary>View Source</summary>
 
@@ -176,7 +175,7 @@ Entity1 }o-down-o{ Entity3
 
 ## Package styles
 
-![Diagram 8](./doc/README_diagram_8)
+![Diagram 8](./doc/README_diagram_8.svg)
 <details>
  <summary>View Source</summary>
 
@@ -206,7 +205,7 @@ package "Demo Database" <<Database>> {
 
 ## Activity diagram
 
-![Diagram 9](./doc/README_diagram_9)
+![Diagram 9](./doc/README_diagram_9.svg)
 <details>
  <summary>View Source</summary>
 
@@ -229,7 +228,7 @@ stop
 
 ## Component diagram of items
 
-![Diagram 10](./doc/README_diagram_10)
+![Diagram 10](./doc/README_diagram_10.svg)
 <details>
  <summary>View Source</summary>
 
@@ -247,7 +246,7 @@ package "Package"
 
 ## State diagram
 
-![Diagram 11](./doc/README_diagram_11)
+![Diagram 11](./doc/README_diagram_11.svg)
 <details>
  <summary>View Source</summary>
 
@@ -266,7 +265,7 @@ State3 : Description 3
 
 ## Deployment diagram items
 
-![Diagram 12](./doc/README_diagram_12)
+![Diagram 12](./doc/README_diagram_12.svg)
 <details>
  <summary>View Source</summary>
 
@@ -304,7 +303,7 @@ usecase usecase
 
 ## Timing diagram
 
-![Diagram 13](./doc/README_diagram_13)
+![Diagram 13](./doc/README_diagram_13.svg)
 <details>
  <summary>View Source</summary>
 
@@ -322,12 +321,11 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagram 14](./doc/README_diagram_14)
+![Diagram 14](./doc/README_diagram_14.png)
 <details>
  <summary>View Source</summary>
 
 ```plantuml
-
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -339,18 +337,16 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
-
 ```
 </details>
 
 ## Wireframe
 
-![Diagram 15](./doc/README_diagram_15)
+![Diagram 15](./doc/README_diagram_15.svg)
 <details>
  <summary>View Source</summary>
 
 ```plantuml
-
 @startsalt
 {
   Hello world
@@ -368,7 +364,7 @@ concise "My Timeline" as T
 
 ## Gantt chart
 
-![Diagram 16](./doc/README_diagram_16)
+![Diagram 16](./doc/README_diagram_16.svg)
 <details>
  <summary>View Source</summary>
 
@@ -383,7 +379,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## Mind map
 
-![Diagram 17](./doc/README_diagram_17)
+![Diagram 17](./doc/README_diagram_17.svg)
 <details>
  <summary>View Source</summary>
 
@@ -400,7 +396,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## JSON data
 
-![Diagram 18](./doc/README_diagram_18)
+![Diagram 18](./doc/README_diagram_18.svg)
 <details>
  <summary>View Source</summary>
 
@@ -417,7 +413,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## YAML data
 
-![Diagram 19](./doc/README_diagram_19)
+![Diagram 19](./doc/README_diagram_19.svg)
 <details>
  <summary>View Source</summary>
 
@@ -434,7 +430,7 @@ color:
 
 ## Network diagram
 
-![Diagram 20](./doc/README_diagram_20)
+![Diagram 20](./doc/README_diagram_20.svg)
 <details>
  <summary>View Source</summary>
 
@@ -454,7 +450,7 @@ nwdiag {
 
 ## Work breakdown structure (WBS)
 
-![Diagram 21](./doc/README_diagram_21)
+![Diagram 21](./doc/README_diagram_21.svg)
 <details>
  <summary>View Source</summary>
 
@@ -473,7 +469,7 @@ nwdiag {
 
 ## OpenIconic
 
-![Diagram 22](./doc/README_diagram_22)
+![Diagram 22](./doc/README_diagram_22.svg)
 <details>
  <summary>View Source</summary>
 
@@ -483,14 +479,12 @@ title: <&heart> Demo <&heart>
 @enduml
 ```
 </details>
-</pre>
-</details>
 
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Diagram 23](./doc/README_diagram_23)
+![Diagram 23](./doc/README_diagram_23.svg)
 <details>
  <summary>View Source</summary>
 
@@ -505,7 +499,7 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Diagram 24](./doc/README_diagram_24)
+![Diagram 24](./doc/README_diagram_24.svg)
 <details>
  <summary>View Source</summary>
 
@@ -522,7 +516,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Diagram 25](./doc/README_diagram_25)
+![Diagram 25](./doc/README_diagram_25.svg)
 <details>
  <summary>View Source</summary>
 
@@ -543,7 +537,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-![Diagram 26](./doc/README_diagram_26)
+![Diagram 26](./doc/README_diagram_26.svg)
 <details>
  <summary>View Source</summary>
 
@@ -646,7 +640,7 @@ The area diagram is an example deployment diagram that shows a bunch of areas an
 
 ## C4 model
 
-![Diagram 27](./doc/README_diagram_27)
+![Diagram 27](./doc/README_diagram_27.svg)
 <details>
  <summary>View Source</summary>
 
@@ -671,7 +665,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ## Standard library
 
-![Diagram 28](./doc/README_diagram_28)
+![Diagram 28](./doc/README_diagram_28.svg)
 <details>
  <summary>View Source</summary>
 
@@ -686,7 +680,7 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![Diagram 29](./doc/README_diagram_29)
+![Diagram 29](./doc/README_diagram_29.svg)
 <details>
  <summary>View Source</summary>
 
