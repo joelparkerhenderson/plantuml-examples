@@ -376,10 +376,9 @@ concise "My Timeline" as T
 ```plantuml
 
 @startgantt
-skinparam monochrome true
-[Task1] on {Alice} lasts 8 days
-then [Task2] on {Bob} lasts 4 days at 50%
-then [Task3] on {Carol} lasts 2 days at 25%
+[Task1] on {Alice} requires 8 days
+then [Task2] on {Bob} requires 4 days and is 50% complete
+then [Task3] on {Carol} lasts 2 days and is 25% complete
 @endgantt
 
 ```
