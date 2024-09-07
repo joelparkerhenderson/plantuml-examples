@@ -41,7 +41,6 @@ Foo -> Foo6 : To collections
 Foo -> Foo7: To queue
 ```
 
-
 ## Usecase diagram
 
 ```plantuml
@@ -232,7 +231,6 @@ concise "My Timeline" as T
 ## Diagrams through ASCII art (DITAA)
 
 ```plantuml
-
 @startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
@@ -244,13 +242,11 @@ concise "My Timeline" as T
     |       Lots of work      |
     +-------------------------+
 @endditaa
-
 ```
 
 ## Wireframe
 
 ```plantuml
-
 @startsalt
 {
   Hello world
@@ -314,7 +310,6 @@ color:
 ## Network diagram
 
 ```plantuml
-
 nwdiag {
   network dmz {
       address = "210.x.x.x/24"
@@ -323,7 +318,6 @@ nwdiag {
       web02 [address = "210.x.x.2"];
   }
 }
-
 ```
 
 ## Work breakdown structure (WBS)
@@ -345,8 +339,6 @@ nwdiag {
 ```plantuml
 title: <&heart> Demo <&heart>
 ```
-</pre>
-</details>
 
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
@@ -378,7 +370,6 @@ skinparam defaultTextAlignment center
 !endprocedure
 
 $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
-
 ```
 
 This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
