@@ -263,19 +263,16 @@ concise "My Timeline" as T
   ^This is a droplist^
 }
 @endsalt
-
 ```
 
 ## Gantt chart
 
 ```plantuml
-
 @startgantt
 [Task1] on {Alice} requires 8 days
 then [Task2] on {Bob} requires 4 days and is 50% complete
 then [Task3] on {Carol} lasts 2 days and is 25% complete
 @endgantt
-
 ```
 
 ## Mind map
