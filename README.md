@@ -352,8 +352,7 @@ concise "My Timeline" as T
 <details>
 <summary>View Source</summary>
 <pre>
-@startuml
-ditaa
+@startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -363,7 +362,7 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@enduml
+@endditaa
 </pre>
 </details>
 
@@ -375,8 +374,7 @@ ditaa
 <details>
 <summary>View Source</summary>
 <pre>
-@startuml
-salt
+@startsalt
 {
   Hello world
   [Button]
@@ -387,7 +385,7 @@ salt
   "Enter text here   "
   ^This is a droplist^
 }
-@enduml
+@endsalt
 </pre>
 </details>
 
@@ -401,9 +399,9 @@ salt
 <pre>
 @startgantt
 skinparam monochrome true
-[Task1] on {Alice} lasts 8 days
-then [Task2] on {Bob} lasts 4 days at 50%
-then [Task3] on {Carol} lasts 2 days at 25%
+[Task1] on {Alice} requires 8 days
+then [Task2] on {Bob} requires 4 days and is 50% complete
+then [Task3] on {Carol} lasts 2 days and is 25% complete
 @endgantt
 </pre>
 </details>
@@ -594,17 +592,17 @@ skinparam monochrome true
 skinparam defaultTextAlignment center
 
 ' icons
-!include <font-awesome/check_circle>
-!include <font-awesome/cloud>
-!include <font-awesome/cubes>
-!include <font-awesome/exchange>
-!include <font-awesome/file_code_o>
-!include <font-awesome/file_image_o>
-!include <font-awesome/gavel>
-!include <font-awesome/gear>
-!include <font-awesome/globe>
-!include <font-awesome/heart>
-!include <font-awesome/share_alt_square>
+!include <tupadr3/font-awesome/check_circle>
+!include <tupadr3/font-awesome/cloud>
+!include <tupadr3/font-awesome/cubes>
+!include <tupadr3/font-awesome/exchange>
+!include <tupadr3/font-awesome/file_code_o>
+!include <tupadr3/font-awesome/file_image_o>
+!include <tupadr3/font-awesome/gavel>
+!include <tupadr3/font-awesome/gear>
+!include <tupadr3/font-awesome/globe>
+!include <tupadr3/font-awesome/heart>
+!include <tupadr3/font-awesome/share_alt_square>
 
 ' Pipeline objects
 stack ""<size:20>Example</size>\n\nexample\nexample\nexample"" as StackLeft
