@@ -3,17 +3,17 @@ skinparam monochrome true
 skinparam defaultTextAlignment center
 
 ' icons
-!include <font-awesome/check_circle>
-!include <font-awesome/cloud>
-!include <font-awesome/cubes>
-!include <font-awesome/exchange>
-!include <font-awesome/file_code_o>
-!include <font-awesome/file_image_o>
-!include <font-awesome/gavel>
-!include <font-awesome/gear>
-!include <font-awesome/globe>
-!include <font-awesome/heart>
-!include <font-awesome/share_alt_square>
+!include <tupadr3/font-awesome/check_circle>
+!include <tupadr3/font-awesome/cloud>
+!include <tupadr3/font-awesome/cubes>
+!include <tupadr3/font-awesome/exchange>
+!include <tupadr3/font-awesome/file_code_o>
+!include <tupadr3/font-awesome/file_image_o>
+!include <tupadr3/font-awesome/gavel>
+!include <tupadr3/font-awesome/gear>
+!include <tupadr3/font-awesome/globe>
+!include <tupadr3/font-awesome/heart>
+!include <tupadr3/font-awesome/share_alt_square>
 
 ' Pipeline objects
 stack ""<size:20>Example</size>\n\nexample\nexample\nexample"" as StackLeft

@@ -1,5 +1,4 @@
-@startuml 
-ditaa
+@startditaa
 +--------+   +-------+    +-------+
 |        +---+ ditaa +--> |       |
 |  Text  |   +-------+    |diagram|
@@ -9,4 +8,4 @@ ditaa
     :                         ^
     |       Lots of work      |
     +-------------------------+
-@enduml
+@endditaa
