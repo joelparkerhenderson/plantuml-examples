@@ -1,0 +1,11 @@
+#!/bin/sh
+set -euf
+top="$(git rev-parse --show-toplevel)"
+find "$top/doc" -name '*.plantuml.txt' |
+while read -r x
+do
+    echo "$x"
+    dir=$(dirname "$x")
+    cd "$dir"
+    plantuml "$x"
+done
