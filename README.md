@@ -684,32 +684,6 @@ Pipeline3Control2 -u-> Pipeline3
 </details>
 
 
-## C4 model
-
-![C4 model](doc/c4-model/c4-model.plantuml.png)
-
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-!include <C4/C4_Container>
-
-Person(personAlias, "Label", "Optional Description")
-Container(containerAlias, "Label", "Technology", "Optional Description")
-System(systemAlias, "Label", "Optional Description")
-
-System_Ext(extSystemAlias, "Label", "Optional Description")
-
-Rel(personAlias, containerAlias, "Label", "Optional Technology")
-
-Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
-@enduml
-</pre>
-</details>
-
-[C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
-
-
 ## Standard library
 
 ![Standard library](doc/standard-library/standard-library.plantuml.png)
@@ -740,3 +714,50 @@ listopeniconic
 </details>
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
+
+
+## C4 model
+
+![C4 model](doc/c4-model/c4-model.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+!include <C4/C4_Container>
+
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description")
+
+System_Ext(extSystemAlias, "Label", "Optional Description")
+
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+
+Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
+@enduml
+</pre>
+</details>
+
+[C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
+
+
+## Archimate
+
+[ArchiMate](https://pubs.opengroup.org/architecture/archimate32-doc/) focuses on enterprise architecture modeling language.
+
+
+### ArchiMate sprites
+
+![ArchiMate sprites](doc/archimate/archimate-sprites/archimate-sprites.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+listsprite
+@enduml
+</pre>
+</details>
+
+
