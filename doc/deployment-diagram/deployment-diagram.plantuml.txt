@@ -1,5 +1,6 @@
 @startuml
 skinparam monochrome true
+action action
 actor actor
 agent agent
 artifact artifact
