@@ -1,0 +1,88 @@
+@startuml
+!include <archimate/Archimate>
+
+title ArchiMate Elements
+
+' Motivation Elements
+Motivation_Stakeholder(Stakeholder, "Stakeholder")
+Motivation_Driver(Driver, "Driver")
+Motivation_Assessment(Motivation_Assessment, "Assessment")
+Motivation_Goal(Goal, "Goal")
+Motivation_Outcome(Outcome, "Outcome")
+Motivation_Principle(Principle, "Principle")
+Motivation_Requirement(Requirement, "Requirement")
+Motivation_Constraint(Constraint, "Constraint")
+Motivation_Meaning(Meaning, "Meaning")
+Motivation_Value(Value, "Value")
+
+' Strategy Elements
+Strategy_Resource(Resource, "Resource")
+Strategy_Capability(Capability, "Capability")
+Strategy_CourseOfAction(CourseOfAction, "Course Of Action")
+Strategy_ValueStream(ValueStream, "Strategy Value Stream")
+
+' Business Elements
+Business_Actor(Business_Actor, "Business Actor")
+Business_Role(Business_Role, "Business Role")
+Business_Collaboration(Business_Collaboration, "Business Collaboration")
+Business_Interface(Business_Interface, "Business Interface")
+Business_Process(Business_Process, "Business Process")
+Business_Function(Business_Function, "Business Function")
+Business_Interaction(Business_Interaction, "Business Interaction")
+Business_Event(Business_Event, "Business Event")
+Business_Service(Business_Service, "Business Service")
+Business_Object(Business_Object, "Business Object")
+Business_Contract(Business_Contract, "Contract")
+Business_Representation(Business_Representation, "Representation")
+Business_Product(Business_Product, "Product")
+Business_Location(Business_Location, "Business Location")
+
+' Application Elements
+Application_Component(Application_Component, "Application Component")
+Application_Collaboration(Application_Collaboration, "Application Collaboration")
+Application_Interface(Application_Interface, "Application Interface")
+Application_Function(Application_Function, "Application Function")
+Application_Interaction(Application_Interaction, "Application Interaction")
+Application_Process(Application_Process, "Application Process")
+Application_Event(Application_Event, "Application Event")
+Application_Service(Application_Service, "Application Service")
+Application_DataObject(Application_DataObject, "Data Object")
+
+' Technology Elements
+Technology_Node(Node, "Node")
+Technology_Device(Device, "Device")
+Technology_SystemSoftware(SystemSoftware, "System Software")
+Technology_Collaboration(Technology_Collaboration, "Technology Collaboration")
+Technology_Interface(Technology_Interface, "Technology Interface")
+Technology_Path(Path, "Path")
+Technology_CommunicationNetwork(CommunicationNetwork, "Communication Network")
+Technology_Function(Technology_Function, "Technology Function")
+Technology_Process(Technology_Process, "Technology Process")
+Technology_Interaction(Technology_Interaction, "Technology Interaction")
+Technology_Event(Technology_Event, "Technology Event")
+Technology_Service(Technology_Service, "Technology Service")
+Technology_Artifact(Artifact, "Artifact")
+
+'Physical Elements
+Physical_Equipment(Equipment, "Equipment")
+Physical_Facility(Facility, "Facility")
+Physical_DistributionNetwork(DistributionNetwork, "Distribution Network")
+Physical_Material(Material, "Material")
+
+'Implementation Elements
+Implementation_WorkPackage(WorkPackage, "Work Package")
+Implementation_Deliverable(Deliverable, "Deliverable")
+Implementation_Event(Implementation_Event, "Implementation Event")
+Implementation_Plateau(Plateau, "Plateau")
+Implementation_Gap(Gap, "Gap")
+
+'Other Elements
+Grouping(Grouping, "Grouping") {
+    Junction_Or(Junction_Or, "or")
+    Junction_And(Junction_And, "and")
+}
+Group(Group, "Group") {
+    Other_Location(Other_Location, "Location")
+}
+
+@enduml

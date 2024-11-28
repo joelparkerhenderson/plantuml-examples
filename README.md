@@ -294,6 +294,7 @@ State3 : Description 3
 <pre>
 @startuml
 skinparam monochrome true
+action action
 actor actor
 agent agent
 artifact artifact
@@ -582,7 +583,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ![Area diagram](doc/area-diagram/area-diagram.plantuml.png)
 
-The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
+The area diagram is an example deployment diagram that shows a bunch of areas and how they interrelate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
 <details>
 <summary>View Source</summary>
@@ -742,9 +743,190 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
 
-## Archimate
+## ArchiMate
 
 [ArchiMate](https://pubs.opengroup.org/architecture/archimate32-doc/) focuses on enterprise architecture modeling language.
+
+### ArchiMate modeling
+
+![ArchiMate modeling](doc/archimate/archimate-modeling/archimate-modeling.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+!include <archimate/Archimate>
+sprite $stakeholder jar:archimate/motivation-stakeholder
+sprite $capability jar:archimate/strategy-capability
+sprite $product jar:archimate/business-product
+
+title ArchiMate Modeling
+Motivation_Stakeholder(Stakeholder, "Stakeholder")
+Strategy_Capability(Capability, "Capability")
+Business_Product(Product, "Product")
+Rel_Assignment(Stakeholder, Capability, "Can Do")
+Rel_Assignment(Capability, Product, "By Using")
+
+legend left
+Legend
+====
+<$stakeholder> Stakeholder
+<$capability> Capability
+<$product> Product
+endlegend
+
+@enduml
+</pre>
+</details>
+
+
+### ArchiMate grouping
+
+![ArchiMate grouping](doc/archimate/archimate-grouping/archimate-grouping.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+!include <archimate/Archimate>
+sprite $stakeholder jar:archimate/motivation-stakeholder
+sprite $capability jar:archimate/strategy-capability
+sprite $product jar:archimate/business-product
+
+title ArchiMate Modeling Layers
+
+Grouping(Stakeholders, "Stakeholders") {
+    Motivation_Stakeholder(Stakeholder1, "Stakeholder 1")
+    Motivation_Stakeholder(Stakeholder2, "Stakeholder 2")
+}
+
+Grouping(Drivers, "Drivers") {
+    Motivation_Driver(Driver1, "Driver 1")
+    Motivation_Driver(Driver2, "Driver 2")
+}
+
+Grouping(Assessments, "Assessments") {
+    Motivation_Assessment(Assessment1, "Assessment 1")
+    Motivation_Assessment(Assessment2, "Assessment 2")
+}
+
+Grouping(Goals, "Goals") {
+    Motivation_Goal(Goal1, "Goal 1")
+    Motivation_Goal(Goal2, "Goal 2")
+}
+
+Grouping(Outcomes, "Outcomes") {
+    Motivation_Outcome(Outcome1, "Outcome 1")
+    Motivation_Outcome(Outcome2, "Outcome 2")
+}
+
+Grouping(Requirements, "Requirements") {
+    Motivation_Requirement(Requirement1, "Requirement 1")
+    Motivation_Requirement(Requirement2, "Requirement 2")
+}
+
+@enduml
+</pre>
+</details>
+
+### ArchiMate elements
+
+![ArchiMate elements](doc/archimate/archimate-elements/archimate-elements.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+!include <archimate/Archimate>
+
+title ArchiMate Elements
+
+' Motivation Elements
+Motivation_Stakeholder(Stakeholder, "Stakeholder")
+Motivation_Driver(Driver, "Driver")
+Motivation_Assessment(Motivation_Assessment, "Assessment")
+Motivation_Goal(Goal, "Goal")
+Motivation_Outcome(Outcome, "Outcome")
+Motivation_Principle(Principle, "Principle")
+Motivation_Requirement(Requirement, "Requirement")
+Motivation_Constraint(Constraint, "Constraint")
+Motivation_Meaning(Meaning, "Meaning")
+Motivation_Value(Value, "Value")
+
+' Strategy Elements
+Strategy_Resource(Resource, "Resource")
+Strategy_Capability(Capability, "Capability")
+Strategy_CourseOfAction(CourseOfAction, "Course Of Action")
+Strategy_ValueStream(ValueStream, "Strategy Value Stream")
+
+' Business Elements
+Business_Actor(Business_Actor, "Business Actor")
+Business_Role(Business_Role, "Business Role")
+Business_Collaboration(Business_Collaboration, "Business Collaboration")
+Business_Interface(Business_Interface, "Business Interface")
+Business_Process(Business_Process, "Business Process")
+Business_Function(Business_Function, "Business Function")
+Business_Interaction(Business_Interaction, "Business Interaction")
+Business_Event(Business_Event, "Business Event")
+Business_Service(Business_Service, "Business Service")
+Business_Object(Business_Object, "Business Object")
+Business_Contract(Business_Contract, "Contract")
+Business_Representation(Business_Representation, "Representation")
+Business_Product(Business_Product, "Product")
+Business_Location(Business_Location, "Business Location")
+
+' Application Elements
+Application_Component(Application_Component, "Application Component")
+Application_Collaboration(Application_Collaboration, "Application Collaboration")
+Application_Interface(Application_Interface, "Application Interface")
+Application_Function(Application_Function, "Application Function")
+Application_Interaction(Application_Interaction, "Application Interaction")
+Application_Process(Application_Process, "Application Process")
+Application_Event(Application_Event, "Application Event")
+Application_Service(Application_Service, "Application Service")
+Application_DataObject(Application_DataObject, "Data Object")
+
+' Technology Elements
+Technology_Node(Node, "Node")
+Technology_Device(Device, "Device")
+Technology_SystemSoftware(SystemSoftware, "System Software")
+Technology_Collaboration(Technology_Collaboration, "Technology Collaboration")
+Technology_Interface(Technology_Interface, "Technology Interface")
+Technology_Path(Path, "Path")
+Technology_CommunicationNetwork(CommunicationNetwork, "Communication Network")
+Technology_Function(Technology_Function, "Technology Function")
+Technology_Process(Technology_Process, "Technology Process")
+Technology_Interaction(Technology_Interaction, "Technology Interaction")
+Technology_Event(Technology_Event, "Technology Event")
+Technology_Service(Technology_Service, "Technology Service")
+Technology_Artifact(Artifact, "Artifact")
+
+'Physical Elements
+Physical_Equipment(Equipment, "Equipment")
+Physical_Facility(Facility, "Facility")
+Physical_DistributionNetwork(DistributionNetwork, "Distribution Network")
+Physical_Material(Material, "Material")
+
+'Implementation Elements
+Implementation_WorkPackage(WorkPackage, "Work Package")
+Implementation_Deliverable(Deliverable, "Deliverable")
+Implementation_Event(Implementation_Event, "Implementation Event")
+Implementation_Plateau(Plateau, "Plateau")
+Implementation_Gap(Gap, "Gap")
+
+'Other Elements
+Grouping(Grouping, "Grouping") {
+    Junction_Or(Junction_Or, "or")
+    Junction_And(Junction_And, "and")
+}
+Group(Group, "Group") {
+    Other_Location(Other_Location, "Location")
+}
+
+@enduml
+</pre>
+</details>
 
 
 ### ArchiMate sprites

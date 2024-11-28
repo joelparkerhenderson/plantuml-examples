@@ -1,0 +1,18 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "ArchiMate",
+        "endbox",
+        "endlegend",
+        "enduml",
+        "skinparam",
+        "startuml",
+        "tupadr3",
+        "usecase"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

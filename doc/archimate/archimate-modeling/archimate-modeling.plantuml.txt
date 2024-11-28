@@ -1,0 +1,22 @@
+@startuml
+!include <archimate/Archimate>
+sprite $stakeholder jar:archimate/motivation-stakeholder
+sprite $capability jar:archimate/strategy-capability
+sprite $product jar:archimate/business-product
+
+title ArchiMate Modeling
+Motivation_Stakeholder(Stakeholder, "Stakeholder")
+Strategy_Capability(Capability, "Capability")
+Business_Product(Product, "Product")
+Rel_Assignment(Stakeholder, Capability, "Can Do")
+Rel_Assignment(Capability, Product, "By Using")
+
+legend left
+Legend
+====
+<$stakeholder> Stakeholder
+<$capability> Capability
+<$product> Product
+endlegend
+
+@enduml

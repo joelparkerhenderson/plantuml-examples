@@ -1,0 +1,39 @@
+@startuml
+!include <archimate/Archimate>
+sprite $stakeholder jar:archimate/motivation-stakeholder
+sprite $capability jar:archimate/strategy-capability
+sprite $product jar:archimate/business-product
+
+title ArchiMate Modeling Layers
+
+Grouping(Stakeholders, "Stakeholders") {
+    Motivation_Stakeholder(Stakeholder1, "Stakeholder 1")
+    Motivation_Stakeholder(Stakeholder2, "Stakeholder 2")
+}
+
+Grouping(Drivers, "Drivers") {
+    Motivation_Driver(Driver1, "Driver 1")
+    Motivation_Driver(Driver2, "Driver 2")
+}
+
+Grouping(Assessments, "Assessments") {
+    Motivation_Assessment(Assessment1, "Assessment 1")
+    Motivation_Assessment(Assessment2, "Assessment 2")
+}
+
+Grouping(Goals, "Goals") {
+    Motivation_Goal(Goal1, "Goal 1")
+    Motivation_Goal(Goal2, "Goal 2")
+}
+
+Grouping(Outcomes, "Outcomes") {
+    Motivation_Outcome(Outcome1, "Outcome 1")
+    Motivation_Outcome(Outcome2, "Outcome 2")
+}
+
+Grouping(Requirements, "Requirements") {
+    Motivation_Requirement(Requirement1, "Requirement 1")
+    Motivation_Requirement(Requirement2, "Requirement 2")
+}
+
+@enduml
