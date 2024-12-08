@@ -719,29 +719,98 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 ## C4 model
 
-![C4 model](doc/c4-model/c4-model.plantuml.png)
+[C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
+
+### C4 model: context diagram
+
+![C4 model context diagram](doc/c4-model/c4-model-context-diagram/c4-model-context-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
 <pre>
 @startuml
 !include <C4/C4_Container>
-
-Person(personAlias, "Label", "Optional Description")
-Container(containerAlias, "Label", "Technology", "Optional Description")
-System(systemAlias, "Label", "Optional Description")
-
-System_Ext(extSystemAlias, "Label", "Optional Description")
-
-Rel(personAlias, containerAlias, "Label", "Optional Technology")
-
-Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
+Person(personAlias, "Alice Adams", "Alice is our ideal user")
+Container(containerAlias, "Our Website", "Our Technology", "Our Description")
+Rel(personAlias, containerAlias, "Our Arrow Title", "Our Arrow Comment")
 @enduml
 </pre>
 </details>
 
-[C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
+### C4 model: container diagram
 
+![C4 model container diagram](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.plantuml.png)
+
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+
+' The C4 PlantUML example here is thanks to the C4 PlantUML team.
+' The UML is copied from the "Big Bank with Icons" example.
+'
+' C4 PlantUML repository:
+' https://github.com/plantuml-stdlib/C4-PlantUML/
+'
+' C4 PlantUML samples:
+' https://github.com/plantuml-stdlib/C4-PlantUML/tree/master/samples
+'
+' You can include the C4 PlantUML file in various ways.
+'
+' To include the default way, uncomment this line:
+' !include <C4/C4_Container>
+'
+' To include the remote file, uncomment this line:
+' !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+'
+' To include a local file, uncomment this line:
+' !include C4_Context.puml
+'
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/angular.puml
+!include DEVICONS/dotnet.puml
+!include DEVICONS/java.puml
+!include DEVICONS/msql_server.puml
+!include FONTAWESOME/server.puml
+!include FONTAWESOME/envelope.puml
+
+' LAYOUT_TOP_DOWN()
+' LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+title Container diagram for Internet Banking System
+
+Person(customer, Customer, "A customer of the bank, with personal bank accounts")
+
+System_Boundary(c1, "Internet Banking") {
+    Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA", "java")
+    Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to customers via their web browser", "angular")
+    Container(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device", "dotnet")
+    ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.", "mysql_server")
+    Container(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API", "server")
+}
+
+System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", "envelope")
+System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+Rel(customer, web_app, "Uses", "HTTPS")
+Rel(customer, spa, "Uses", "HTTPS")
+Rel(customer, mobile_app, "Uses")
+
+Rel_Neighbor(web_app, spa, "Delivers")
+Rel(spa, backend_api, "Uses", "async, JSON/HTTPS")
+Rel(mobile_app, backend_api, "Uses", "async, JSON/HTTPS")
+Rel_Back_Neighbor(database, backend_api, "Reads from and writes to", "sync, JDBC")
+
+Rel_Back(customer, email_system, "Sends e-mails to")
+Rel_Back(email_system, backend_api, "Sends e-mails using", "sync, SMTP")
+Rel_Neighbor(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
+@enduml
+</pre>
+</details>
 
 ## ArchiMate
 

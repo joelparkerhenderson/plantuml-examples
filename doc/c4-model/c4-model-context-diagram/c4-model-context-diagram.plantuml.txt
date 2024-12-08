@@ -1,0 +1,6 @@
+@startuml
+!include <C4/C4_Container>
+Person(personAlias, "Alice Adams", "Alice is our ideal user")
+Container(containerAlias, "Our Website", "Our Technology", "Our Description")
+Rel(personAlias, containerAlias, "Our Arrow Title", "Our Arrow Comment")
+@enduml
