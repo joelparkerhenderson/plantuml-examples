@@ -781,7 +781,7 @@ Rel(personAlias, containerAlias, "Our Arrow Title", "Our Arrow Comment")
 ' LAYOUT_AS_SKETCH()
 LAYOUT_WITH_LEGEND()
 
-title Container diagram for Internet Banking System
+title C4 Model container diagram example
 
 Person(customer, Customer, "A customer of the bank, with personal bank accounts")
 
