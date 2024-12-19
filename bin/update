@@ -1,7 +1,7 @@
 #!/bin/sh
 set -euf
 top="$(git rev-parse --show-toplevel)"
-find "$top/doc" -name '*.plantuml.txt' |
+find "$top/doc" -name '*.plantuml' |
 while read -r x
 do
     echo "$x"

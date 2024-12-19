@@ -5,7 +5,7 @@
 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
+![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -21,7 +21,7 @@ Bravo -> Alpha
 
 ## Sequence diagram with steps and divider
 
-![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
+![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -40,7 +40,7 @@ Bravo -> Alpha: Step 4
 
 ## Sequence diagram with participant shapes
 
-![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
+![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -69,7 +69,7 @@ Foo -> Foo7: To queue
 
 ## Usecase diagram
 
-![Usecase diagram](doc/usecase-diagram/usecase-diagram.plantuml.png)
+![Usecase diagram](doc/usecase-diagram/usecase-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -87,7 +87,7 @@ User1 --> (Story1)
 
 ## Object diagram
 
-![Object diagram](doc/object-diagram/object-diagram.plantuml.png)
+![Object diagram](doc/object-diagram/object-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -119,7 +119,7 @@ Object1 <|-- Object3
 
 ## Class diagram
 
-![Class diagram](doc/class-diagram/class-diagram.plantuml.png)
+![Class diagram](doc/class-diagram/class-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -154,7 +154,7 @@ Class1 <|--* Class3
 
 ## Entity relationship diagram (ERD)
 
-![Entity relationship diagram](doc/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
+![Entity relationship diagram](doc/entity-relationship-diagram/entity-relationship-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -190,7 +190,7 @@ Entity1 }o-down-o{ Entity3
 
 ## Package styles
 
-![Package styles](doc/package-styles/package-styles.plantuml.png)
+![Package styles](doc/package-styles/package-styles.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -221,7 +221,7 @@ package "Demo Database" <<Database>> {
 
 ## Activity diagram
 
-![Activity diagram](doc/activity-diagram/activity-diagram.plantuml.png)
+![Activity diagram](doc/activity-diagram/activity-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -246,7 +246,7 @@ stop
 
 ## Component diagram of items
 
-![Component diagram](doc/component-diagram/component-diagram.plantuml.png)
+![Component diagram](doc/component-diagram/component-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -266,7 +266,7 @@ package "Package"
 
 ## State diagram
 
-![State diagram](doc/state-diagram/state-diagram.plantuml.png)
+![State diagram](doc/state-diagram/state-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -287,7 +287,7 @@ State3 : Description 3
 
 ## Deployment diagram items
 
-![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml.png)
+![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -328,7 +328,7 @@ usecase usecase
 
 ## Timing diagram
 
-![Timing diagram](doc/timing-diagram/timing-diagram.plantuml.png)
+![Timing diagram](doc/timing-diagram/timing-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -348,7 +348,7 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
+![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -370,7 +370,7 @@ concise "My Timeline" as T
 
 ## Wireframe
 
-![Wireframe](doc/wireframe/wireframe.plantuml.png)
+![Wireframe](doc/wireframe/wireframe.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -393,7 +393,7 @@ concise "My Timeline" as T
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt-chart/gantt-chart.plantuml.png)
+![Gantt chart](doc/gantt-chart/gantt-chart.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -410,7 +410,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## Mind map
 
-![Mind map](doc/mind-map/mind-map.plantuml.png)
+![Mind map](doc/mind-map/mind-map.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -428,7 +428,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## JSON data
 
-![JSON data](doc/json-data/json-data.plantuml.png)
+![JSON data](doc/json-data/json-data.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -446,7 +446,7 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 
 ## YAML data
 
-![YAML data](doc/yaml-data/yaml-data.plantuml.png)
+![YAML data](doc/yaml-data/yaml-data.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -464,7 +464,7 @@ color:
 
 ## Network diagram
 
-![Network diagram](doc/network-diagram/network-diagram.plantuml.png)
+![Network diagram](doc/network-diagram/network-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -485,7 +485,7 @@ nwdiag {
 
 ## Work breakdown structure (WBS)
 
-![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml.png)
+![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -505,7 +505,7 @@ nwdiag {
 
 ## OpenIconic
 
-![OpenIconic](doc/openiconic/openiconic.plantuml.png)
+![OpenIconic](doc/openiconic/openiconic.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -521,7 +521,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Font Awesome](doc/font-awesome/font-awesome.plantuml.png)
+![Font Awesome](doc/font-awesome/font-awesome.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -537,7 +537,7 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Procedure diagram](doc/procedure/procedure.plantuml.png)
+![Procedure diagram](doc/procedure/procedure.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -557,7 +557,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
+![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -581,7 +581,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-![Area diagram](doc/area-diagram/area-diagram.plantuml.png)
+![Area diagram](doc/area-diagram/area-diagram.plantuml)
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrelate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
@@ -687,7 +687,7 @@ Pipeline3Control2 -u-> Pipeline3
 
 ## Standard library
 
-![Standard library](doc/standard-library/standard-library.plantuml.png)
+![Standard library](doc/standard-library/standard-library.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -703,7 +703,7 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
+![OpenIconic](doc/openiconic-list/openiconic-list.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -723,7 +723,7 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 ### C4 model: context diagram
 
-![C4 model context diagram](doc/c4-model/c4-model-context-diagram/c4-model-context-diagram.plantuml.png)
+![C4 model context diagram](doc/c4-model/c4-model-context-diagram/c4-model-context-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -739,7 +739,7 @@ Rel(personAlias, containerAlias, "Our Arrow Title", "Our Arrow Comment")
 
 ### C4 model: container diagram
 
-![C4 model container diagram](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.plantuml.png)
+![C4 model container diagram](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -818,7 +818,7 @@ Rel_Neighbor(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
 
 ### ArchiMate modeling
 
-![ArchiMate modeling](doc/archimate/archimate-modeling/archimate-modeling.plantuml.png)
+![ArchiMate modeling](doc/archimate/archimate-modeling/archimate-modeling.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -852,7 +852,7 @@ endlegend
 
 ### ArchiMate grouping
 
-![ArchiMate grouping](doc/archimate/archimate-grouping/archimate-grouping.plantuml.png)
+![ArchiMate grouping](doc/archimate/archimate-grouping/archimate-grouping.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -901,7 +901,7 @@ Grouping(Requirements, "Requirements") {
 
 ### ArchiMate elements
 
-![ArchiMate elements](doc/archimate/archimate-elements/archimate-elements.plantuml.png)
+![ArchiMate elements](doc/archimate/archimate-elements/archimate-elements.plantuml)
 
 <details>
 <summary>View Source</summary>
@@ -1000,7 +1000,7 @@ Group(Group, "Group") {
 
 ### ArchiMate sprites
 
-![ArchiMate sprites](doc/archimate/archimate-sprites/archimate-sprites.plantuml.png)
+![ArchiMate sprites](doc/archimate/archimate-sprites/archimate-sprites.plantuml)
 
 <details>
 <summary>View Source</summary>
