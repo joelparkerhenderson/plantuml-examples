@@ -20,16 +20,25 @@
 ' To include a local file, uncomment this line:
 ' !include C4_Context.puml
 '
+' Many creators of C4 diagrams like to add icons.
+' This example shows how to use the built-in icons.
+'
+' To see all available icons, one way is this link:
+' https://html-preview.github.io/?url=https://github.com/tupadr3/plantuml-icon-font-sprites/blob/v3.0.0/icons/index.html
+ 
 
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
-!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
-!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
-!include DEVICONS/angular.puml
-!include DEVICONS/dotnet.puml
-!include DEVICONS/java.puml
-!include DEVICONS/msql_server.puml
-!include FONTAWESOME/server.puml
-!include FONTAWESOME/envelope.puml
+' Load the current built-in icons via remote GitHub link.
+' There are other ways to do this, such as via a local file,
+' of via PlantUML syntax which loads the most-recent release.
+' This example aims to show you the most-up-to-date way.
+!$ICONURL = "https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v3.0.0/icons"
+!include $ICONURL/common.puml
+!include $ICONURL/devicons2/angular.puml
+!include $ICONURL/devicons2/dot_net.puml
+!include $ICONURL/devicons2/java.puml
+!include $ICONURL/font-awesome-6/server.puml
+!include $ICONURL/font-awesome-6/envelope.puml
+!include $ICONURL/font-awesome-6/database.puml
 
 ' LAYOUT_TOP_DOWN()
 ' LAYOUT_AS_SKETCH()
@@ -43,7 +52,7 @@ System_Boundary(c1, "Internet Banking") {
     Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA", "java")
     Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to customers via their web browser", "angular")
     Container(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device", "dotnet")
-    ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.", "mysql_server")
+    ContainerDb(database, "Database", "SQL Database", "Stores user registration information, hashed auth credentials, access logs, etc.", "database")
     Container(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API", "server")
 }
 
