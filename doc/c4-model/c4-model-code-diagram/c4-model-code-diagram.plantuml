@@ -13,25 +13,27 @@
 ' !include <C4/C4_Container>
 '
 ' To include the remote file, uncomment this line:
-' !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+' !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Code.puml
 '
 ' To include a local file, uncomment this line:
 ' !include C4_Component.puml
  
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
-' uncomment the following line and comment the first to use locally
-' !include C4_Component.puml
-
 @startuml
-skinparam monochrome true
 hide circle
-LAYOUT_WITH_LEGEND()
 
 title C4 Model - Code diagram
 
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Code.puml
+' As of 2024-12-01, the C4 PlantUML repository doesn't offer a C4_Code.puml file,
+' that would be similar to the C4_Context.puml or C4_Container.puml files.
+'
+' We hope that the C4 PlantUML team will provide a C4_Code.puml file in the future,
+' so we're including the C4_Code.puml file and LAYOUT_WITH_LEGEND in the comments.
+'
+' !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Code.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Code.puml
+'
+' LAYOUT_WITH_LEGEND()
 
 entity user {
     id
