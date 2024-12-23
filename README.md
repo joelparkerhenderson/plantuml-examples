@@ -740,16 +740,16 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 ### C4 model: component diagram
 
-![C4 model component diagram](doc/c4-model/c4-model-context-diagram/c4-model-component-diagram.png)
+![C4 model component diagram](doc/c4-model/c4-model-component-diagram/c4-model-component-diagram.png)
 
-[View Source](doc/c4-model/c4-model-context-diagram/c4-model-component-diagram.plantuml)
+[View Source](doc/c4-model/c4-model-component-diagram/c4-model-component-diagram.plantuml)
 
 
 ### C4 model: code diagram
 
-![C4 model code diagram](doc/c4-model/c4-model-context-diagram/c4-model-code-diagram.png)
+![C4 model code diagram](doc/c4-model/c4-model-code-diagram/c4-model-code-diagram.png)
 
-[View Source](doc/c4-model/c4-model-context-diagram/c4-model-code-diagram.plantuml)
+[View Source](doc/c4-model/c4-model-code-diagram/c4-model-code-diagram.plantuml)
 
 
 ## ArchiMate
