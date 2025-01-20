@@ -735,7 +735,7 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 ![C4 model container diagram](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.png)
 
-[View Source](doc/c4-model/c4-model-context-diagram/c4-model-component-diagram.plantuml)
+[View Source](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.plantuml)
 
 
 ### C4 model: component diagram
