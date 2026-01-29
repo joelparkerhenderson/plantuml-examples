@@ -1,7 +1,6 @@
 # PlantUML examples
 
-[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, WBS, ASCII art, Gantt charts, C4 models, and more. 
-
+[PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, WBS, ASCII art, Gantt charts, C4 models, and more.
 
 ## Sequence diagram
 
@@ -17,7 +16,6 @@ Bravo -> Alpha
 @enduml
 </pre>
 </details>
-
 
 ## Sequence diagram with steps and divider
 
@@ -36,7 +34,6 @@ Bravo -> Alpha: Step 4
 @enduml
 </pre>
 </details>
-
 
 ## Sequence diagram with participant shapes
 
@@ -66,7 +63,6 @@ Foo -> Foo7: To queue
 </pre>
 </details>
 
-
 ## Usecase diagram
 
 ![Usecase diagram](doc/usecase-diagram/usecase-diagram.png)
@@ -84,7 +80,6 @@ User1 --> (Story1)
 </pre>
 </details>
 
-
 ## Object diagram
 
 ![Object diagram](doc/object-diagram/object-diagram.png)
@@ -96,26 +91,26 @@ User1 --> (Story1)
 skinparam monochrome true
 
 object Object1 {
-  Alpha
-  Bravo
+Alpha
+Bravo
 }
 
 object Object2 {
-  Charlie
-  Delta
+Charlie
+Delta
 }
 
 object Object3 {
-  Echo
-  Foxtrot
+Echo
+Foxtrot
 }
 
 Object1 <|-- Object2
 Object1 <|-- Object3
 @enduml
+
 </pre>
 </details>
-
 
 ## Class diagram
 
@@ -131,26 +126,26 @@ skinparam monochrome true
 ' hide circle
 
 class Class1 {
-  {field} Alpha
-  {method} Bravo
+{field} Alpha
+{method} Bravo
 }
 
 class Class2 {
-  {field} Charlie
-  {method} Delta
+{field} Charlie
+{method} Delta
 }
 
 class Class3 {
-  {field} Echo
-  {method} Foxtrot
+{field} Echo
+{method} Foxtrot
 }
 
 Class1 <|--o Class2
-Class1 <|--* Class3
+Class1 <|--\* Class3
 @enduml
+
 </pre>
 </details>
-
 
 ## Entity relationship diagram (ERD)
 
@@ -167,26 +162,26 @@ skinparam linetype ortho
 ' hide circle
 
 entity Entity1 {
-  Alpha
-  Bravo
+Alpha
+Bravo
 }
 
 entity Entity2 {
-  Charlie
-  Delta
+Charlie
+Delta
 }
 
 entity Entity3 {
-  Echo
-  Foxtrot
+Echo
+Foxtrot
 }
 
 Entity1 }o-down-o{ Entity2
 Entity1 }o-down-o{ Entity3
 @enduml
+
 </pre>
 </details>
-
 
 ## Package styles
 
@@ -218,7 +213,6 @@ package "Demo Database" <<Database>> {
 </pre>
 </details>
 
-
 ## Activity diagram
 
 ![Activity diagram](doc/activity-diagram/activity-diagram.png)
@@ -243,7 +237,6 @@ stop
 </pre>
 </details>
 
-
 ## Component diagram of items
 
 ![Component diagram](doc/component-diagram/component-diagram.png)
@@ -262,7 +255,6 @@ package "Package"
 @enduml
 </pre>
 </details>
-
 
 ## State diagram
 
@@ -283,7 +275,6 @@ State3 : Description 3
 @enduml
 </pre>
 </details>
-
 
 ## Deployment diagram items
 
@@ -325,7 +316,6 @@ usecase usecase
 </pre>
 </details>
 
-
 ## Timing diagram
 
 ![Timing diagram](doc/timing-diagram/timing-diagram.png)
@@ -344,7 +334,6 @@ concise "My Timeline" as T
 @enduml
 </pre>
 </details>
-
 
 ## Diagrams through ASCII art (DITAA)
 
@@ -366,7 +355,6 @@ concise "My Timeline" as T
 @endditaa
 </pre>
 </details>
-
 
 ## Wireframe
 
@@ -390,7 +378,6 @@ concise "My Timeline" as T
 </pre>
 </details>
 
-
 ## Gantt chart
 
 ![Gantt chart](doc/gantt-chart/gantt-chart.png)
@@ -406,7 +393,6 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 @endgantt
 </pre>
 </details>
-
 
 ## Mind map
 
@@ -425,7 +411,6 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 </pre>
 </details>
 
-
 ## JSON data
 
 ![JSON data](doc/json-data/json-data.png)
@@ -442,7 +427,6 @@ then [Task3] on {Carol} lasts 2 days and is 25% complete
 @endjson
 </pre>
 </details>
-
 
 ## YAML data
 
@@ -461,7 +445,6 @@ color:
 </pre>
 </details>
 
-
 ## Network diagram
 
 ![Network diagram](doc/network-diagram/network-diagram.png)
@@ -476,12 +459,13 @@ nwdiag {
 
       web01 [address = "210.x.x.1"];
       web02 [address = "210.x.x.2"];
-  }
+
+}
 }
 @enduml
+
 </pre>
 </details>
-
 
 ## Work breakdown structure (WBS)
 
@@ -502,7 +486,6 @@ nwdiag {
 </pre>
 </details>
 
-
 ## OpenIconic
 
 ![OpenIconic](doc/openiconic/openiconic.png)
@@ -518,7 +501,6 @@ title: <&heart> Demo <&heart>
 
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
-
 ## Font Awesome
 
 ![Font Awesome](doc/font-awesome/font-awesome.png)
@@ -533,7 +515,6 @@ rectangle "<$star>"
 @enduml
 </pre>
 </details>
-
 
 ## Procedure
 
@@ -551,9 +532,9 @@ rectangle "<$star>"
 $demo(MyCard, "Hello World", "This is a demonstration")
 
 @enduml
+
 </pre>
 </details>
-
 
 ## Procedure layout
 
@@ -573,11 +554,11 @@ skinparam defaultTextAlignment center
 $layout(card, MyCard, heart, "Hello World", "This is a demonstration")
 
 @enduml
+
 </pre>
 </details>
 
 This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.
-
 
 ## Area diagram
 
@@ -669,7 +650,7 @@ DiamondUpper -[hidden]r- UseCase3
 UseCase3 -[hidden]r- UseCase4
 
 ' Pipeline 1 controls
-control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Control1 
+control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Control1
 control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Control2
 Pipeline1Control1 -u-> Pipeline1
 Pipeline1Control2 -u-> Pipeline1
@@ -681,9 +662,9 @@ Pipeline3Control1 -u-> Pipeline3
 Pipeline3Control2 -u-> Pipeline3
 
 @enduml
+
 </pre>
 </details>
-
 
 ## Standard library
 
@@ -700,7 +681,6 @@ stdlib
 
 You can list standard library folders by using the special diagram "stdlib".
 
-
 ## OpenIconic list
 
 ![OpenIconic](doc/openiconic-list/openiconic-list.png)
@@ -716,13 +696,11 @@ listopeniconic
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
 
-
 ## C4 model
 
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
 [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML/)
-
 
 ### C4 model: context diagram
 
@@ -730,13 +708,13 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 [View Source](doc/c4-model/c4-model-context-diagram/c4-model-context-diagram.plantuml)
 
-
 ### C4 model: container diagram
 
 ![C4 model container diagram](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.png)
 
 [View Source](doc/c4-model/c4-model-container-diagram/c4-model-container-diagram.plantuml)
 
+[See also: C4 model container diagram with steps](doc/c4-model/c4-model-container-diagram-with-steps/)
 
 ### C4 model: component diagram
 
@@ -744,13 +722,11 @@ You can list all the OpenIconic icon names and images by using the special diagr
 
 [View Source](doc/c4-model/c4-model-component-diagram/c4-model-component-diagram.plantuml)
 
-
 ### C4 model: code diagram
 
 ![C4 model code diagram](doc/c4-model/c4-model-code-diagram/c4-model-code-diagram.png)
 
 [View Source](doc/c4-model/c4-model-code-diagram/c4-model-code-diagram.plantuml)
-
 
 ## ArchiMate
 
@@ -786,9 +762,9 @@ Legend
 endlegend
 
 @enduml
+
 </pre>
 </details>
-
 
 ### ArchiMate grouping
 
@@ -806,36 +782,37 @@ sprite $product jar:archimate/business-product
 title ArchiMate Modeling Layers
 
 Grouping(Stakeholders, "Stakeholders") {
-    Motivation_Stakeholder(Stakeholder1, "Stakeholder 1")
-    Motivation_Stakeholder(Stakeholder2, "Stakeholder 2")
+Motivation_Stakeholder(Stakeholder1, "Stakeholder 1")
+Motivation_Stakeholder(Stakeholder2, "Stakeholder 2")
 }
 
 Grouping(Drivers, "Drivers") {
-    Motivation_Driver(Driver1, "Driver 1")
-    Motivation_Driver(Driver2, "Driver 2")
+Motivation_Driver(Driver1, "Driver 1")
+Motivation_Driver(Driver2, "Driver 2")
 }
 
 Grouping(Assessments, "Assessments") {
-    Motivation_Assessment(Assessment1, "Assessment 1")
-    Motivation_Assessment(Assessment2, "Assessment 2")
+Motivation_Assessment(Assessment1, "Assessment 1")
+Motivation_Assessment(Assessment2, "Assessment 2")
 }
 
 Grouping(Goals, "Goals") {
-    Motivation_Goal(Goal1, "Goal 1")
-    Motivation_Goal(Goal2, "Goal 2")
+Motivation_Goal(Goal1, "Goal 1")
+Motivation_Goal(Goal2, "Goal 2")
 }
 
 Grouping(Outcomes, "Outcomes") {
-    Motivation_Outcome(Outcome1, "Outcome 1")
-    Motivation_Outcome(Outcome2, "Outcome 2")
+Motivation_Outcome(Outcome1, "Outcome 1")
+Motivation_Outcome(Outcome2, "Outcome 2")
 }
 
 Grouping(Requirements, "Requirements") {
-    Motivation_Requirement(Requirement1, "Requirement 1")
-    Motivation_Requirement(Requirement2, "Requirement 2")
+Motivation_Requirement(Requirement1, "Requirement 1")
+Motivation_Requirement(Requirement2, "Requirement 2")
 }
 
 @enduml
+
 </pre>
 </details>
 
@@ -926,17 +903,17 @@ Implementation_Gap(Gap, "Gap")
 
 'Other Elements
 Grouping(Grouping, "Grouping") {
-    Junction_Or(Junction_Or, "or")
-    Junction_And(Junction_And, "and")
+Junction_Or(Junction_Or, "or")
+Junction_And(Junction_And, "and")
 }
 Group(Group, "Group") {
-    Other_Location(Other_Location, "Location")
+Other_Location(Other_Location, "Location")
 }
 
 @enduml
+
 </pre>
 </details>
-
 
 ### ArchiMate sprites
 
@@ -950,5 +927,3 @@ listsprite
 @enduml
 </pre>
 </details>
-
-

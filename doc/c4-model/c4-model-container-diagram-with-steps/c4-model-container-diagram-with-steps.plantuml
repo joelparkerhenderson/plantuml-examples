@@ -1,0 +1,38 @@
+@startuml
+!include <C4/C4_Container>
+skinparam linetype ortho
+skinparam nodesep 120
+skinparam ranksep 100
+skinparam componentPadding 20
+skinparam rectanglePadding 20
+skinparam package<<Layout>> {
+  borderColor Transparent
+  backgroundColor Transparent
+  fontColor Transparent
+  stereotypeFontColor Transparent
+}
+LAYOUT_WITH_LEGEND()
+LAYOUT_TOP_DOWN()
+
+title C4 model container diagram\nwith steps, spacings, separations
+
+Person(person, "Person\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯", "Your text here.\n")
+
+System_Boundary(system_boundary, "System Boundary") {
+    package steps <<Layout>> {
+        package step_1_layout <<Layout>> {
+            Container(step_1_main, "Step 1\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯", "", "Your text here.\n")
+            Container(step_1_aside, "Aside\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯", "", "Your text here.\n")
+            Rel_Right(step_1_main, step_1_aside, "\nYour text here")
+        }
+        package step_2_layout <<Layout>> {
+            Container(step_2_main, "Step 2\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯", "", "Your text here.\n")
+            Container(step_2_aside, "Aside\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯", "", "Your text here.\n")
+            Rel_Right(step_2_main, step_2_aside, "\nYour text here")
+        }
+        Rel_Down(step_1_main, step_2_main, "")
+    }        
+}
+Rel_Down(person, step_1_main, "Your text here")
+
+@enduml
